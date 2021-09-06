@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Assignment 1 - MSB 105 - Ole Alexander Bakkevik &amp; Sindre Espedal" />
+<meta name="author" content="Assignment 1 i kurset Data Science 2020" />
 
 
 <title>«R Notebooks» og reproduserbarhet</title>
@@ -59,6 +59,28 @@ if (window.hljs) {
 
 
 
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 
 
@@ -167,45 +189,134 @@ pre code {
 
 
 <h1 class="title toc-ignore">«R Notebooks» og reproduserbarhet</h1>
-<h4 class="author">Assignment 1 - MSB 105 - Ole Alexander Bakkevik &amp; Sindre Espedal</h4>
+<h4 class="author">Assignment 1 i kurset Data Science 2020</h4>
 
 </div>
 
 
-<div id="disposisjon-dere-trenger-ikke-dekke-alt-listet-her" class="section level2">
-<h2>disposisjon (dere trenger ikke dekke alt listet her)</h2>
-<p>- Innleding</p>
-<p>* Reproduserbarhet, R notebooks</p>
-<p>- Litteraturgjennomgang</p>
-<p>* Replikerbarhet/reproduserbarhet</p>
-<p>* Problemets omfang</p>
+<p>Skriv et kort notat — 5-7 sider (inklusive appendiks) i form av en «R Notebook» — der nødvendigheten av reproduserbarhet i forskning diskuteres. Diskuter også om bruk av «R Notebooks» er en mulig løsning på problemet med manglende reproduserbarhet.</p>
+<p>Dokumentet må inneholde følgende bruk av R markdown:</p>
+<ol style="list-style-type: decimal">
+<li>Minst 4 overskrifter</li>
+<li>Minst 1 ordnet liste på 2 nivå</li>
+<li>Minst 1 eksempel på bruk av
+<ol style="list-style-type: decimal">
+<li><strong>halv-fet skrift(«bold»)</strong>,</li>
+<li><em>kursiv skrift («italic»)</em> og</li>
+<li><strong><em>halv-fet kursiv skrift</em></strong></li>
+</ol></li>
+<li>Minst 1 internt bilde skal være screenshot av git history som:
+<ol style="list-style-type: decimal">
+<li>Dokumenterer minst 10 «commits»</li>
+<li>Dokumenterer bruk av minst 3 «branches»</li>
+<li>Ekstra stjerne til dem som klarer å få til en «merge conflict» ;-)</li>
+<li>Bildet som dokumenterer git history skal være i et appendiks som kommer helt til slutt i dokumentet (etter referansene)</li>
+</ol></li>
+<li>Kjør <code>sessionInfo()</code> i en code-chunk (husk å gi chunk-en navn). Hvordan kan denne funksjonen hjelpe oss med å gjøre et dokument reproduserbart?</li>
+<li>Vi benytter apa for sitering og referanseliste (<code>apa-no-ampersand.csl</code> er tilgjengelig under <em>Filer</em> i Canvas.)</li>
+<li>Bruk begge siteringsformene, dvs med og uten <code>[]</code>
+<ol style="list-style-type: decimal">
+<li>Husk at for å få siteringsinfo for R pakker kan dere bruke kommandoen <code>toBibtex(citation(&lt;navn-R-pakke&gt;))</code> , f.eks</li>
+</ol></li>
+</ol>
+<pre class="r"><code>toBibtex(citation(&quot;rmarkdown&quot;))</code></pre>
+<pre><code>## @Manual{,
+##   title = {rmarkdown: Dynamic Documents for R},
+##   author = {JJ Allaire and Yihui Xie and Jonathan McPherson and Javier Luraschi and Kevin Ushey and Aron Atkins and Hadley Wickham and Joe Cheng and Winston Chang and Richard Iannone},
+##   year = {2021},
+##   note = {R package version 2.10},
+##   url = {https://github.com/rstudio/rmarkdown},
+## }
+## 
+## @Book{,
+##   title = {R Markdown: The Definitive Guide},
+##   author = {Yihui Xie and J.J. Allaire and Garrett Grolemund},
+##   publisher = {Chapman and Hall/CRC},
+##   address = {Boca Raton, Florida},
+##   year = {2018},
+##   note = {ISBN 9781138359338},
+##   url = {https://bookdown.org/yihui/rmarkdown},
+## }
+## 
+## @Book{,
+##   title = {R Markdown Cookbook},
+##   author = {Yihui Xie and Christophe Dervieux and Emily Riederer},
+##   publisher = {Chapman and Hall/CRC},
+##   address = {Boca Raton, Florida},
+##   year = {2020},
+##   note = {ISBN 9780367563837},
+##   url = {https://bookdown.org/yihui/rmarkdown-cookbook},
+## }</code></pre>
+<p>Velg en «entry» — f.eks. fra <code>@Manual{,</code> t.o.m. <code>}</code> — vha. musen og kopier denne valgte teksten. Gå så inn i Zotero og velg <code>Importer fra utklippstavle</code> fra <code>Fil</code> menyen.</p>
+<div id="forslag-til-litteratur" class="section level2">
+<h2>Forslag til litteratur</h2>
+<p>Se foredrag som ligger under <em>Kursets mediefiler</em> på Canvas. bib-filen som er brukt for referansene i foredrag er også lagt ut på Canvas (under <em>Filer</em>).</p>
+<p>For generelle tanker rundt reproduserbarhet er <span class="citation">@peng2011</span> en god kilde. Videre gir <span class="citation">@mccullough2008</span> en god illustrasjon av problemets omfang innen fagområdet økonomi. <span class="citation">@mccullough2008</span> diskuterer også om tidsskriftenes arkiver av datasett og programkode er en tilfredsstillende løsning av problemet.</p>
+<p>Basert på tanker fra <span class="citation">@knuth1992</span> introduserte <span class="citation">@gentleman2004</span> begrepet «compendium» som:</p>
+<blockquote>
+<p>both a container for the different elements that make up the document and its computations (i.e. text, code, data, …), and as a means for distributing, managing and updating the collection.</p>
+</blockquote>
+<p>Dokumentet nevnt ovenfor er det <span class="citation">@gentleman2004</span><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> omtaler som «dynamic documents». Artikkelen drøfter også disse to begrepenes relevans for «reproducible research». Videre introduseres også «code chunks»</p>
+<blockquote>
+<p>sequences of commands in some programming language such as R or Perl. Code chunks are intended to be evaluated according to the language in which they are written. These perform the computations needed to produce the appropriate output within the paper, and also to produce intermediate results used across different code chunks.</p>
+</blockquote>
+<p>og «text chunks» som beskrives som:</p>
+<blockquote>
+<p>Text chunks describe the problem, the code, the results and often their interpretation. Text chunks are intended to be formatted for reading.</p>
+</blockquote>
+<p>Disse tankene er også blitt brukt til å gjenskape deler av <span class="citation">@golub1999</span> som et slikt «compendium» <span class="citation">[@gentleman2005]</span>. Dette for å vise at idéen er gjennomførbar i prakis.</p>
+<p>Når det gjelder «R notebooks», som kanskje kan betraktes som en implementering av et «compendium», er disse avhengige av de to pakkene <code>rmarkdown</code>, <span class="citation">[@allaire2020]</span>, og <code>knitr</code>, <span class="citation">[@xie2020]</span>. R markdown og tilhørende programvare er kanskje best beskrevet i <span class="citation">@xie2018</span> og <span class="citation">@riederer</span> .</p>
+</div>
+<div id="et-forslag-til-disposisjon-dere-trenger-ikke-dekke-alt-listet-her" class="section level2">
+<h2>Et forslag til disposisjon (dere trenger ikke dekke alt listet her)</h2>
 <ul>
-<li>Vil dagens løsning med arkiv av data og event. programkode hos</li>
-</ul>
-<p>tidsskriftene kunne løse problemet?</p>
-<p>* Mulig løsning (teoretisk plan):</p>
+<li>Innleding
+<ul>
+<li>Reproduserbarhet, R notebooks</li>
+</ul></li>
+<li>Litteraturgjennomgang
+<ul>
+<li>Replikerbarhet/reproduserbarhet</li>
+<li>Problemets omfang
+<ul>
+<li>Vil dagens løsning med arkiv av data og event. programkode hos tidsskriftene kunne løse problemet?</li>
+</ul></li>
+<li>Mulig løsning (teoretisk plan):
 <ul>
 <li>«Compendium», «Dynamic document», «code chunck» og «text chunk»</li>
-</ul>
-<p>* Mulig løsning:</p>
+</ul></li>
+<li>Mulig løsning:
 <ul>
 <li>R Notebooks</li>
-</ul>
-<p>- Analyse</p>
-<p>* Løser R notebooks problemet med reproduserbarhet</p>
+</ul></li>
+</ul></li>
+<li>Analyse
+<ul>
+<li>Løser R notebooks problemet med reproduserbarhet
 <ul>
 <li>helt eller bare delvis</li>
+</ul></li>
+<li>Eksempler på «code chunks» («R Code Block») og «text chunck» i R notebook</li>
+<li>Har forskerne incentiver til å være «reproduserbare», eller må de tvinges?</li>
+<li>Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens økte interesse bare et blaff?</li>
+<li>Kan reproduserbarhet ha relevans i sektorer utenfor akademia?</li>
+</ul></li>
+<li>Konklusjon</li>
+<li>Litteraturliste</li>
 </ul>
-<p>* Eksempler på «code chunks» («R Code Block») og «text chunck» i R notebook</p>
-<p>* Har forskerne incentiver til å være «reproduserbare», eller må de tvinges?</p>
-<p>* Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens</p>
-<p>økte interesse bare et blaff?</p>
-<p>* Kan reproduserbarhet ha relevans i sektorer utenfor akademia?</p>
-<p>- Konklusjon</p>
-<p>- Litteraturliste</p>
+<p>R Notebook-en må kunne transformeres til .nb.html, .pdf fil. og MS Word format.</p>
 </div>
-<div id="litteratur" class="section level2">
-<h2>litteratur</h2>
+<div id="litteraturliste" class="section level2">
+<h2>Litteraturliste</h2>
+<div id="refs">
+
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Robert Gentleman er sammen med Ross Ihaka regnet som «fedrene» til R<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
 
 
