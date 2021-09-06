@@ -1,6 +1,54 @@
 ---
 title: "«R Notebooks» og reproduserbarhet"
-author: Assignment 1 - MSB 105 - Ole Alexander Bakkevik & Sindre Espedal
+author: "Assignment 1 - MSB 105 - Ole Alexander Bakkevik & Sindre Espedal"
 affiliation: HVL
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
+
+## disposisjon (dere trenger ikke dekke alt listet her)
+
+\- Innleding
+
+\* Reproduserbarhet, R notebooks
+
+\- Litteraturgjennomgang
+
+\* Replikerbarhet/reproduserbarhet
+
+\* Problemets omfang
+
+-   Vil dagens løsning med arkiv av data og event. programkode hos
+
+tidsskriftene kunne løse problemet?
+
+\* Mulig løsning (teoretisk plan):
+
+-   «Compendium», «Dynamic document», «code chunck» og «text chunk»
+
+\* Mulig løsning:
+
+-   R Notebooks
+
+\- Analyse
+
+\* Løser R notebooks problemet med reproduserbarhet
+
+-   helt eller bare delvis
+
+\* Eksempler på «code chunks» («R Code Block») og «text chunck» i R
+notebook
+
+\* Har forskerne incentiver til å være «reproduserbare», eller må de
+tvinges?
+
+\* Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens
+
+økte interesse bare et blaff?
+
+\* Kan reproduserbarhet ha relevans i sektorer utenfor akademia?
+
+\- Konklusjon
+
+\- Litteraturliste
