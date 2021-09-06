@@ -2,9 +2,19 @@
 title: "«R Notebooks» og reproduserbarhet"
 author: "Assignment 1 - MSB 105 - Ole Alexander Bakkevik & Sindre Espedal"
 affiliation: HVL
+email: 579735@stud.hvl.no & 170691@stud.hvl.no
+bibliography: reprod.bib
+csl: apa-no-ampersand.csl
+fontsize: 12pt
 output:
   html_document:
     df_print: paged
+  word_document: default
+  pdf_document:
+    keep_tex: yes
+  html_notebook: default  
+link-citations: yes
+lang: nb-NO
 ---
 
 ## disposisjon (dere trenger ikke dekke alt listet her)
@@ -52,3 +62,7 @@ tvinges?
 \- Konklusjon
 
 \- Litteraturliste
+
+## litteratur
+
+
