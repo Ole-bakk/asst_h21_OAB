@@ -1,0 +1,6 @@
+---
+title: "«R Notebooks» og reproduserbarhet"
+author: Assignment 1 - MSB 105 - Ole Alexander Bakkevik & Sindre Espedal
+affiliation: HVL
+output: html_notebook
+---
