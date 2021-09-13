@@ -1,0 +1,95 @@
+---
+title: "«R Notebooks» og reproduserbarhet"
+author: Assignment 1 i kurset Data Science 2020
+affiliation: HVL
+email: arnstein.gjestland@hvl.no
+bibliography: reproducibility.bib
+csl: apa-no-ampersand.csl
+fontsize: 12pt
+output:
+  pdf_document:
+    keep_tex: yes
+  word_document: default
+  html_document:
+    df_print: paged
+  html_notebook: default  
+link-citations: yes
+lang: nb-NO
+---
+
+Skriv et kort notat --- 5-7 sider (inklusive appendiks) i form av en «R Notebook» --- der nødvendigheten av reproduserbarhet i forskning diskuteres. Diskuter også om bruk av «R Notebooks» er en mulig løsning på problemet med manglende reproduserbarhet.
+
+Dokumentet må inneholde følgende bruk av R markdown:
+
+1) Minst 4 overskrifter
+2) Minst 1 ordnet liste på 2 nivå
+4) Minst 1 eksempel på bruk av 
+    1) **halv-fet skrift(«bold»)**, 
+    1) *kursiv skrift («italic»)* og
+    1) ***halv-fet kursiv skrift***
+1) Minst 1 internt bilde skal være screenshot av git history som:
+    1) Dokumenterer minst 10 «commits»
+    2) Dokumenterer bruk av minst 3 «branches»
+    2) Ekstra stjerne til dem som klarer å få til en «merge conflict» ;-)
+    3) Bildet som dokumenterer git history skal være i et appendiks som kommer helt til slutt i dokumentet (etter referansene)
+9) Kjør `sessionInfo()` i en code-chunk (husk å gi chunk-en navn). Hvordan kan denne funksjonen hjelpe oss med å gjøre et dokument reproduserbart?
+10) Vi benytter apa for sitering og referanseliste (`apa-no-ampersand.csl` er tilgjengelig under *Filer* i Canvas.)
+10) Bruk begge siteringsformene, dvs med og uten `[]`
+    1) Husk at for å få siteringsinfo for R pakker kan dere bruke kommandoen `toBibtex(citation(<navn-R-pakke>))` , f.eks 
+  
+```{r}
+toBibtex(citation("rmarkdown"))
+```
+
+Velg en «entry» --- f.eks. fra ```@Manual{,``` t.o.m. ```}``` --- vha. musen og kopier denne valgte teksten. Gå så inn i Zotero og velg ```Importer fra utklippstavle``` fra ```Fil``` menyen.
+
+## Forslag til litteratur
+
+Se foredrag som ligger under *Kursets mediefiler* på Canvas. bib-filen som er brukt for referansene i foredrag er også lagt ut på Canvas (under *Filer*). 
+
+For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gir @mccullough2008 en god illustrasjon av problemets omfang innen fagområdet økonomi. @mccullough2008 diskuterer også om tidsskriftenes arkiver av datasett og programkode er en tilfredsstillende løsning av problemet.  
+
+Basert på tanker fra @knuth1992 introduserte @gentleman2004 begrepet «compendium» som:
+
+>both a container for the different elements that make up the document and its computations (i.e. text, code, data, ...), and as a means for distributing, managing and updating the collection.
+
+Dokumentet nevnt ovenfor er det @gentleman2004^[Robert Gentleman er sammen med Ross Ihaka regnet som «fedrene» til R] omtaler som «dynamic documents». Artikkelen drøfter også disse to begrepenes relevans for «reproducible research». Videre introduseres også «code chunks» 
+
+>sequences of commands in some programming language such as R or Perl. Code chunks are intended to be evaluated according to the language in which they are written. These perform the computations needed to produce the appropriate output within the paper, and also to produce intermediate results used across different code chunks. 
+
+og «text chunks» som beskrives som:
+
+>Text chunks describe the problem, the code, the results and often their interpretation. Text chunks are intended to be formatted for reading.
+
+Disse tankene er også blitt brukt til å gjenskape deler av @golub1999 som et slikt «compendium» [@gentleman2005]. Dette for å vise at idéen er gjennomførbar i prakis.
+
+Når det gjelder «R notebooks», som kanskje kan betraktes som en implementering av et «compendium», er disse avhengige av de to pakkene `rmarkdown`, [@allaire2020], og `knitr`, [@xie2020]. R markdown og tilhørende programvare er kanskje best beskrevet i @xie2018 og @riederer .
+
+## Et forslag til disposisjon (dere trenger ikke dekke alt listet her)
+
+- Innleding
+    * Reproduserbarhet, R notebooks
+- Litteraturgjennomgang
+    * Replikerbarhet/reproduserbarhet
+    * Problemets omfang
+        - Vil dagens løsning med arkiv av data og event. programkode hos 
+        tidsskriftene kunne løse problemet?
+    * Mulig løsning (teoretisk plan):
+        - «Compendium», «Dynamic document», «code chunck» og «text chunk»
+    * Mulig løsning:
+        - R Notebooks
+- Analyse
+    * Løser R notebooks problemet med reproduserbarhet
+        - helt eller bare delvis
+    * Eksempler på «code chunks» («R Code Block») og «text chunck» i R notebook
+    * Har forskerne incentiver til å være «reproduserbare», eller må de tvinges?
+    * Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens 
+    økte interesse bare et blaff?
+    * Kan reproduserbarhet ha relevans i sektorer utenfor akademia?
+- Konklusjon
+- Litteraturliste
+
+R Notebook-en må kunne transformeres til .nb.html, .pdf fil. og MS Word format.
+
+## Litteraturliste
+ <div id="refs"></div>

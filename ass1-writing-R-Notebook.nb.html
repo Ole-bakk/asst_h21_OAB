@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 
-<<<<<<< HEAD
-<html>
-=======
 <html lang="nb-NO" xml:lang="nb-NO">
->>>>>>> second
 
 <head>
 
@@ -13,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Assignment 1 - MSB 105 - Ole Alexander Bakkevik &amp; Sindre Espedal" />
+<meta name="author" content="Assignment 1 i kurset Data Science 2020" />
 
 
 <title>«R Notebooks» og reproduserbarhet</title>
@@ -70,8 +66,6 @@ if (window.hljs) {
 }
 </style>
 
-<<<<<<< HEAD
-=======
 <style type="text/css">
 /* for pandoc --citeproc since 2.11 */
 div.csl-bib-body { }
@@ -94,7 +88,6 @@ div.csl-indent {
   margin-left: 2em;
 }
 </style>
->>>>>>> second
 
 
 
@@ -240,56 +233,117 @@ pre code {
 
 
 <h1 class="title toc-ignore">«R Notebooks» og reproduserbarhet</h1>
-<h4 class="author">Assignment 1 - MSB 105 - Ole Alexander Bakkevik &amp; Sindre Espedal</h4>
+<h4 class="author">Assignment 1 i kurset Data Science 2020</h4>
 
 </div>
 
 
 <!-- rnb-text-begin -->
-<<<<<<< HEAD
+<p>Skriv et kort notat — 5-7 sider (inklusive appendiks) i form av en «R Notebook» — der nødvendigheten av reproduserbarhet i forskning diskuteres. Diskuter også om bruk av «R Notebooks» er en mulig løsning på problemet med manglende reproduserbarhet.</p>
+<p>Dokumentet må inneholde følgende bruk av R markdown:</p>
+<ol style="list-style-type: decimal">
+<li>Minst 4 overskrifter</li>
+<li>Minst 1 ordnet liste på 2 nivå</li>
+<li>Minst 1 eksempel på bruk av
+<ol style="list-style-type: decimal">
+<li><strong>halv-fet skrift(«bold»)</strong>,</li>
+<li><em>kursiv skrift («italic»)</em> og</li>
+<li><strong><em>halv-fet kursiv skrift</em></strong></li>
+</ol></li>
+<li>Minst 1 internt bilde skal være screenshot av git history som:
+<ol style="list-style-type: decimal">
+<li>Dokumenterer minst 10 «commits»</li>
+<li>Dokumenterer bruk av minst 3 «branches»</li>
+<li>Ekstra stjerne til dem som klarer å få til en «merge conflict» ;-)</li>
+<li>Bildet som dokumenterer git history skal være i et appendiks som kommer helt til slutt i dokumentet (etter referansene)</li>
+</ol></li>
+<li>Kjør <code>sessionInfo()</code> i en code-chunk (husk å gi chunk-en navn). Hvordan kan denne funksjonen hjelpe oss med å gjøre et dokument reproduserbart?</li>
+<li>Vi benytter apa for sitering og referanseliste (<code>apa-no-ampersand.csl</code> er tilgjengelig under <em>Filer</em> i Canvas.)</li>
+<li>Bruk begge siteringsformene, dvs med og uten <code>[]</code>
+<ol style="list-style-type: decimal">
+<li>Husk at for å få siteringsinfo for R pakker kan dere bruke kommandoen <code>toBibtex(citation(&lt;navn-R-pakke&gt;))</code> , f.eks</li>
+</ol></li>
+</ol>
 <!-- rnb-text-end -->
-
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiwqtSIE5vdGVib29rc8K7IG9nIHJlcHJvZHVzZXJiYXJoZXQiCmF1dGhvcjogQXNzaWdubWVudCAxIC0gTVNCIDEwNSAtIE9sZSBBbGV4YW5kZXIgQmFra2V2aWsgJiBTaW5kcmUgRXNwZWRhbAphZmZpbGlhdGlvbjogSFZMCm91dHB1dDogaHRtbF9ub3RlYm9vawotLS0K</div>
-=======
-<div id="disposisjon-dere-trenger-ikke-dekke-alt-listet-her" class="section level2">
-<h2>disposisjon (dere trenger ikke dekke alt listet her)</h2>
-<p><strong>- Innleding</strong></p>
-<p><strong>* Reproduserbarhet, R notebooks</strong></p>
-<p><strong>- Litteraturgjennomgang</strong></p>
-<p><strong>* Replikerbarhet/reproduserbarhet</strong></p>
-<p><strong>* Problemets omfang</strong></p>
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudG9CaWJ0ZXgoY2l0YXRpb24oXCJybWFya2Rvd25cIikpXG5gYGAifQ== -->
+<pre class="r"><code>toBibtex(citation(&quot;rmarkdown&quot;))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<p>Velg en «entry» — f.eks. fra <code>@Manual{,</code> t.o.m. <code>}</code> — vha. musen og kopier denne valgte teksten. Gå så inn i Zotero og velg <code>Importer fra utklippstavle</code> fra <code>Fil</code> menyen.</p>
+<div id="forslag-til-litteratur" class="section level2">
+<h2>Forslag til litteratur</h2>
+<p>Se foredrag som ligger under <em>Kursets mediefiler</em> på Canvas. bib-filen som er brukt for referansene i foredrag er også lagt ut på Canvas (under <em>Filer</em>).</p>
+<p>For generelle tanker rundt reproduserbarhet er <span class="citation"><a href="#ref-peng2011" role="doc-biblioref">Peng</a> (<a href="#ref-peng2011" role="doc-biblioref">2011</a>)</span> en god kilde. Videre gir <span class="citation"><a href="#ref-mccullough2008" role="doc-biblioref">McCullough et al.</a> (<a href="#ref-mccullough2008" role="doc-biblioref">2008</a>)</span> en god illustrasjon av problemets omfang innen fagområdet økonomi. <span class="citation"><a href="#ref-mccullough2008" role="doc-biblioref">McCullough et al.</a> (<a href="#ref-mccullough2008" role="doc-biblioref">2008</a>)</span> diskuterer også om tidsskriftenes arkiver av datasett og programkode er en tilfredsstillende løsning av problemet.</p>
+<p>Basert på tanker fra <span class="citation"><a href="#ref-knuth1992" role="doc-biblioref">Knuth</a> (<a href="#ref-knuth1992" role="doc-biblioref">1992</a>)</span> introduserte <span class="citation">(<a href="#ref-gentleman2004" role="doc-biblioref"><strong>gentleman2004?</strong></a>)</span> begrepet «compendium» som:</p>
+<blockquote>
+<p>both a container for the different elements that make up the document and its computations (i.e. text, code, data, …), and as a means for distributing, managing and updating the collection.</p>
+</blockquote>
+<p>Dokumentet nevnt ovenfor er det <span class="citation">(<a href="#ref-gentleman2004" role="doc-biblioref"><strong>gentleman2004?</strong></a>)</span><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> omtaler som «dynamic documents». Artikkelen drøfter også disse to begrepenes relevans for «reproducible research». Videre introduseres også «code chunks»</p>
+<blockquote>
+<p>sequences of commands in some programming language such as R or Perl. Code chunks are intended to be evaluated according to the language in which they are written. These perform the computations needed to produce the appropriate output within the paper, and also to produce intermediate results used across different code chunks.</p>
+</blockquote>
+<p>og «text chunks» som beskrives som:</p>
+<blockquote>
+<p>Text chunks describe the problem, the code, the results and often their interpretation. Text chunks are intended to be formatted for reading.</p>
+</blockquote>
+<p>Disse tankene er også blitt brukt til å gjenskape deler av <span class="citation"><a href="#ref-golub1999" role="doc-biblioref">Golub et al.</a> (<a href="#ref-golub1999" role="doc-biblioref">1999</a>)</span> som et slikt «compendium» <span class="citation">(<a href="#ref-gentleman2005" role="doc-biblioref">Gentleman, 2005</a>)</span>. Dette for å vise at idéen er gjennomførbar i prakis.</p>
+<p>Når det gjelder «R notebooks», som kanskje kan betraktes som en implementering av et «compendium», er disse avhengige av de to pakkene <code>rmarkdown</code>, <span class="citation">(<a href="#ref-allaire2020" role="doc-biblioref">Allaire et al., 2020</a>)</span>, og <code>knitr</code>, <span class="citation">(<a href="#ref-xie2020" role="doc-biblioref">Xie, 2020</a>)</span>. R markdown og tilhørende programvare er kanskje best beskrevet i <span class="citation"><a href="#ref-xie2018" role="doc-biblioref">Xie et al.</a> (<a href="#ref-xie2018" role="doc-biblioref">2018</a>)</span> og <span class="citation"><a href="#ref-riederer" role="doc-biblioref">Riederer</a> (<a href="#ref-riederer" role="doc-biblioref">u.å.</a>)</span> .</p>
+</div>
+<div id="et-forslag-til-disposisjon-dere-trenger-ikke-dekke-alt-listet-her" class="section level2">
+<h2>Et forslag til disposisjon (dere trenger ikke dekke alt listet her)</h2>
 <ul>
-<li><strong>Vil dagens løsning med arkiv av data og event. programkode hos</strong></li>
-</ul>
-<p><strong>tidsskriftene kunne løse problemet?</strong></p>
-<p>* Mulig løsning (teoretisk plan):</p>
+<li>Innleding
+<ul>
+<li>Reproduserbarhet, R notebooks</li>
+</ul></li>
+<li>Litteraturgjennomgang
+<ul>
+<li>Replikerbarhet/reproduserbarhet</li>
+<li>Problemets omfang
+<ul>
+<li>Vil dagens løsning med arkiv av data og event. programkode hos tidsskriftene kunne løse problemet?</li>
+</ul></li>
+<li>Mulig løsning (teoretisk plan):
 <ul>
 <li>«Compendium», «Dynamic document», «code chunck» og «text chunk»</li>
-</ul>
-<p>* Mulig løsning:</p>
+</ul></li>
+<li>Mulig løsning:
 <ul>
 <li>R Notebooks</li>
-</ul>
-<p>- Analyse</p>
-<p>* Løser R notebooks problemet med reproduserbarhet</p>
+</ul></li>
+</ul></li>
+<li>Analyse
+<ul>
+<li>Løser R notebooks problemet med reproduserbarhet
 <ul>
 <li>helt eller bare delvis</li>
+</ul></li>
+<li>Eksempler på «code chunks» («R Code Block») og «text chunck» i R notebook</li>
+<li>Har forskerne incentiver til å være «reproduserbare», eller må de tvinges?</li>
+<li>Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens økte interesse bare et blaff?</li>
+<li>Kan reproduserbarhet ha relevans i sektorer utenfor akademia?</li>
+</ul></li>
+<li>Konklusjon</li>
+<li>Litteraturliste</li>
 </ul>
-<p>* Eksempler på «code chunks» («R Code Block») og «text chunck» i R notebook</p>
-<p>* Har forskerne incentiver til å være «reproduserbare», eller må de tvinges?</p>
-<p>* Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens</p>
-<p>økte interesse bare et blaff?</p>
-<p>* Kan reproduserbarhet ha relevans i sektorer utenfor akademia?</p>
-<p>- Konklusjon</p>
-<p>- Litteraturliste</p>
-<p>jhekfhkewhf <span class="citation"><a href="#ref-allaire2020" role="doc-biblioref">Allaire et al.</a> (<a href="#ref-allaire2020" role="doc-biblioref">2020</a>)</span></p>
-<p>For generelle tanker rundt reproduserbarhet er <span class="citation"><a href="#ref-peng2011" role="doc-biblioref">Peng</a> (<a href="#ref-peng2011" role="doc-biblioref">2011</a>)</span> en god kilde. Videre gir <span class="citation"><a href="#ref-mccullough2008" role="doc-biblioref">McCullough et al.</a> (<a href="#ref-mccullough2008" role="doc-biblioref">2008</a>)</span> en god illustrasjon av problemets omfang innen fagområdet økonomi. <span class="citation"><a href="#ref-mccullough2008" role="doc-biblioref">McCullough et al.</a> (<a href="#ref-mccullough2008" role="doc-biblioref">2008</a>)</span> diskuterer også om tidsskriftenes arkiver av datasett og programkode er en tilfredsstillende løsning av problemet</p>
+<p>R Notebook-en må kunne transformeres til .nb.html, .pdf fil. og MS Word format.</p>
 </div>
-<div id="litteraturliste" class="section level1">
-<h1>Litteraturliste</h1>
+<div id="litteraturliste" class="section level2">
+<h2>Litteraturliste</h2>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-allaire2020" class="csl-entry">
 Allaire, J., Xie, Y., McPherson, J., Luraschi, J., Ushey, K., Atkins, A., Wickham, H., Cheng, J., Chang, W., og Iannone, R. (2020). <em>Rmarkdown: <span>Dynamic</span> Documents for r</em>.
+</div>
+<div id="ref-gentleman2005" class="csl-entry">
+Gentleman, R. (2005). Reproducible <span>Research</span>: <span>A Bioinformatics Case Study</span>. <em>Statistical Applications in Genetics and Molecular Biology</em>, <em>4</em>(1). <a href="https://doi.org/10.2202/1544-6115.1034">https://doi.org/10.2202/1544-6115.1034</a>
+</div>
+<div id="ref-golub1999" class="csl-entry">
+Golub, T. R., Slonim, D. K., Tamayo, P., Huard, C., Gaasenbeek, M., Mesirov, J. P., Coller, H., Loh, M. L., Downing, J. R., Caligiuri, M. A., Bloomfield, C. D., og Lander, E. S. (1999). Molecular Classification of Cancer: Class Discovery and Class Prediction by Gene Expression Monitoring. <em>Science (New York, N.Y.)</em>, <em>286</em>(5439), 531–537. <a href="https://doi.org/10.1126/science.286.5439.531">https://doi.org/10.1126/science.286.5439.531</a>
+</div>
+<div id="ref-knuth1992" class="csl-entry">
+Knuth, D. E. (1992). <em>Literate <span>Programming</span></em>. <span>Cambridge University Press</span>.
 </div>
 <div id="ref-mccullough2008" class="csl-entry">
 McCullough, B. D., McGeary, K. A., og Harrison, T. D. (2008). Do Economics Journal Archives Promote Replicable Research? <em>Canadian Journal of Economics/Revue canadienne d’économique</em>, <em>41</em>(4), 1406–1420. <a href="https://doi.org/10.1111/j.1540-5982.2008.00509.x">https://doi.org/10.1111/j.1540-5982.2008.00509.x</a>
@@ -297,12 +351,26 @@ McCullough, B. D., McGeary, K. A., og Harrison, T. D. (2008). Do Economics Journ
 <div id="ref-peng2011" class="csl-entry">
 Peng, R. D. (2011). Reproducible <span>Research</span> in <span>Computational Science</span>. <em>Science</em>, <em>334</em>(6060), 1226–1227. <a href="https://doi.org/10.1126/science.1213847">https://doi.org/10.1126/science.1213847</a>
 </div>
+<div id="ref-riederer" class="csl-entry">
+Riederer, E., Christophe Dervieux. (u.å.). <em>R <span>Markdown Cookbook</span></em>.
+</div>
+<div id="ref-xie2020" class="csl-entry">
+Xie, Y. (2020). <em>Knitr: <span>A</span> General-Purpose Package for Dynamic Report Generation in r</em> [Manual].
+</div>
+<div id="ref-xie2018" class="csl-entry">
+Xie, Y., Allaire, J. J., og Grolemund, G. (2018). <em>R Markdown: <span>The</span> Definitive Guide</em>. <span>Chapman and Hall/CRC</span>.
+</div>
 </div>
 <!-- rnb-text-end -->
 </div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Robert Gentleman er sammen med Ross Ihaka regnet som «fedrene» til R<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiwqtSIE5vdGVib29rc8K7IG9nIHJlcHJvZHVzZXJiYXJoZXQiCmF1dGhvcjogIkFzc2lnbm1lbnQgMSAtIE1TQiAxMDUgLSBPbGUgQWxleGFuZGVyIEJha2tldmlrICYgU2luZHJlIEVzcGVkYWwiCmFmZmlsaWF0aW9uOiBIVkwKYmlibGlvZ3JhcGh5OiByZXByb2R1Y2liaWxpdHkuYmliCmNzbDogYXBhLW5vLWFtcGVyc2FuZC5jc2wKZm9udHNpemU6IDEycHQKb3V0cHV0OgogIHBkZl9kb2N1bWVudDoKICAgIGtlZXBfdGV4OiB5ZXMKICB3b3JkX2RvY3VtZW50OiBkZWZhdWx0CiAgaHRtbF9kb2N1bWVudDoKICAgIGRmX3ByaW50OiBwYWdlZAogIGh0bWxfbm90ZWJvb2s6IGRlZmF1bHQgIApsaW5rLWNpdGF0aW9uczogeWVzCmxhbmc6IG5iLU5PCi0tLQoKIyMgZGlzcG9zaXNqb24gKGRlcmUgdHJlbmdlciBpa2tlIGRla2tlIGFsdCBsaXN0ZXQgaGVyKQoKKiotIElubmxlZGluZyoqCgoqKlwqIFJlcHJvZHVzZXJiYXJoZXQsIFIgbm90ZWJvb2tzKioKCioqLSBMaXR0ZXJhdHVyZ2plbm5vbWdhbmcqKgoKKipcKiBSZXBsaWtlcmJhcmhldC9yZXByb2R1c2VyYmFyaGV0KioKCioqXCogUHJvYmxlbWV0cyBvbWZhbmcqKgoKLSAgICoqVmlsIGRhZ2VucyBsw7hzbmluZyBtZWQgYXJraXYgYXYgZGF0YSBvZyBldmVudC4gcHJvZ3JhbWtvZGUgaG9zKioKCioqdGlkc3NrcmlmdGVuZSBrdW5uZSBsw7hzZSBwcm9ibGVtZXQ/KioKClwqIE11bGlnIGzDuHNuaW5nICh0ZW9yZXRpc2sgcGxhbik6CgotICAgwqtDb21wZW5kaXVtwrssIMKrRHluYW1pYyBkb2N1bWVudMK7LCDCq2NvZGUgY2h1bmNrwrsgb2cgwqt0ZXh0IGNodW5rwrsKClwqIE11bGlnIGzDuHNuaW5nOgoKLSAgIFIgTm90ZWJvb2tzCgpcLSBBbmFseXNlCgpcKiBMw7hzZXIgUiBub3RlYm9va3MgcHJvYmxlbWV0IG1lZCByZXByb2R1c2VyYmFyaGV0CgotICAgaGVsdCBlbGxlciBiYXJlIGRlbHZpcwoKXCogRWtzZW1wbGVyIHDDpSDCq2NvZGUgY2h1bmtzwrsgKMKrUiBDb2RlIEJsb2NrwrspIG9nIMKrdGV4dCBjaHVuY2vCuyBpIFIgbm90ZWJvb2sKClwqIEhhciBmb3Jza2VybmUgaW5jZW50aXZlciB0aWwgw6UgdsOmcmUgwqtyZXByb2R1c2VyYmFyZcK7LCBlbGxlciBtw6UgZGUgdHZpbmdlcz8KClwqIEVyIMO4a3QgcmVwcm9kdXNlcmJhcmhldCBub2Ugc29tIHZpbCB0dmluZ2Ugc2VnIGZyZW0gZWxsZXIgZXIgZGFnZW5zCgrDuGt0ZSBpbnRlcmVzc2UgYmFyZSBldCBibGFmZj8KClwqIEthbiByZXByb2R1c2VyYmFyaGV0IGhhIHJlbGV2YW5zIGkgc2VrdG9yZXIgdXRlbmZvciBha2FkZW1pYT8KClwtIEtvbmtsdXNqb24KClwtIExpdHRlcmF0dXJsaXN0ZQoKamhla2Zoa2V3aGYgQGFsbGFpcmUyMDIwCgpGb3IgZ2VuZXJlbGxlIHRhbmtlciBydW5kdCByZXByb2R1c2VyYmFyaGV0IGVyIEBwZW5nMjAxMSBlbiBnb2Qga2lsZGUuIFZpZGVyZSBnaXIgQG1jY3VsbG91Z2gyMDA4IGVuIGdvZCBpbGx1c3RyYXNqb24gYXYgcHJvYmxlbWV0cyBvbWZhbmcgaW5uZW4gZmFnb21yw6VkZXQgw7hrb25vbWkuIEBtY2N1bGxvdWdoMjAwOCBkaXNrdXRlcmVyIG9nc8OlIG9tIHRpZHNza3JpZnRlbmVzIGFya2l2ZXIgYXYgZGF0YXNldHQgb2cgcHJvZ3JhbWtvZGUgZXIgZW4gdGlsZnJlZHNzdGlsbGVuZGUgbMO4c25pbmcgYXYgcHJvYmxlbWV0CgojIExpdHRlcmF0dXJsaXN0ZQoKOjo6IHsjcmVmc30KOjo6Cg==</div>
->>>>>>> second
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiwqtSIE5vdGVib29rc8K7IG9nIHJlcHJvZHVzZXJiYXJoZXQiCmF1dGhvcjogQXNzaWdubWVudCAxIGkga3Vyc2V0IERhdGEgU2NpZW5jZSAyMDIwCmFmZmlsaWF0aW9uOiBIVkwKZW1haWw6IGFybnN0ZWluLmdqZXN0bGFuZEBodmwubm8KYmlibGlvZ3JhcGh5OiByZXByb2R1Y2liaWxpdHkuYmliCmNzbDogYXBhLW5vLWFtcGVyc2FuZC5jc2wKZm9udHNpemU6IDEycHQKb3V0cHV0OgogIHBkZl9kb2N1bWVudDoKICAgIGtlZXBfdGV4OiB5ZXMKICB3b3JkX2RvY3VtZW50OiBkZWZhdWx0CiAgaHRtbF9kb2N1bWVudDoKICAgIGRmX3ByaW50OiBwYWdlZAogIGh0bWxfbm90ZWJvb2s6IGRlZmF1bHQgIApsaW5rLWNpdGF0aW9uczogeWVzCmxhbmc6IG5iLU5PCi0tLQoKU2tyaXYgZXQga29ydCBub3RhdCAtLS0gNS03IHNpZGVyIChpbmtsdXNpdmUgYXBwZW5kaWtzKSBpIGZvcm0gYXYgZW4gwqtSIE5vdGVib29rwrsgLS0tIGRlciBuw7hkdmVuZGlnaGV0ZW4gYXYgcmVwcm9kdXNlcmJhcmhldCBpIGZvcnNrbmluZyBkaXNrdXRlcmVzLiBEaXNrdXRlciBvZ3PDpSBvbSBicnVrIGF2IMKrUiBOb3RlYm9va3PCuyBlciBlbiBtdWxpZyBsw7hzbmluZyBww6UgcHJvYmxlbWV0IG1lZCBtYW5nbGVuZGUgcmVwcm9kdXNlcmJhcmhldC4KCkRva3VtZW50ZXQgbcOlIGlubmVob2xkZSBmw7hsZ2VuZGUgYnJ1ayBhdiBSIG1hcmtkb3duOgoKMSkgTWluc3QgNCBvdmVyc2tyaWZ0ZXIKMikgTWluc3QgMSBvcmRuZXQgbGlzdGUgcMOlIDIgbml2w6UKNCkgTWluc3QgMSBla3NlbXBlbCBww6UgYnJ1ayBhdiAKICAgIDEpICoqaGFsdi1mZXQgc2tyaWZ0KMKrYm9sZMK7KSoqLCAKICAgIDEpICprdXJzaXYgc2tyaWZ0ICjCq2l0YWxpY8K7KSogb2cKICAgIDEpICoqKmhhbHYtZmV0IGt1cnNpdiBza3JpZnQqKioKMSkgTWluc3QgMSBpbnRlcm50IGJpbGRlIHNrYWwgdsOmcmUgc2NyZWVuc2hvdCBhdiBnaXQgaGlzdG9yeSBzb206CiAgICAxKSBEb2t1bWVudGVyZXIgbWluc3QgMTAgwqtjb21taXRzwrsKICAgIDIpIERva3VtZW50ZXJlciBicnVrIGF2IG1pbnN0IDMgwqticmFuY2hlc8K7CiAgICAyKSBFa3N0cmEgc3RqZXJuZSB0aWwgZGVtIHNvbSBrbGFyZXIgw6UgZsOlIHRpbCBlbiDCq21lcmdlIGNvbmZsaWN0wrsgOy0pCiAgICAzKSBCaWxkZXQgc29tIGRva3VtZW50ZXJlciBnaXQgaGlzdG9yeSBza2FsIHbDpnJlIGkgZXQgYXBwZW5kaWtzIHNvbSBrb21tZXIgaGVsdCB0aWwgc2x1dHQgaSBkb2t1bWVudGV0IChldHRlciByZWZlcmFuc2VuZSkKOSkgS2rDuHIgYHNlc3Npb25JbmZvKClgIGkgZW4gY29kZS1jaHVuayAoaHVzayDDpSBnaSBjaHVuay1lbiBuYXZuKS4gSHZvcmRhbiBrYW4gZGVubmUgZnVua3Nqb25lbiBoamVscGUgb3NzIG1lZCDDpSBnasO4cmUgZXQgZG9rdW1lbnQgcmVwcm9kdXNlcmJhcnQ/CjEwKSBWaSBiZW55dHRlciBhcGEgZm9yIHNpdGVyaW5nIG9nIHJlZmVyYW5zZWxpc3RlIChgYXBhLW5vLWFtcGVyc2FuZC5jc2xgIGVyIHRpbGdqZW5nZWxpZyB1bmRlciAqRmlsZXIqIGkgQ2FudmFzLikKMTApIEJydWsgYmVnZ2Ugc2l0ZXJpbmdzZm9ybWVuZSwgZHZzIG1lZCBvZyB1dGVuIGBbXWAKICAgIDEpIEh1c2sgYXQgZm9yIMOlIGbDpSBzaXRlcmluZ3NpbmZvIGZvciBSIHBha2tlciBrYW4gZGVyZSBicnVrZSBrb21tYW5kb2VuIGB0b0JpYnRleChjaXRhdGlvbig8bmF2bi1SLXBha2tlPikpYCAsIGYuZWtzIAogIApgYGB7cn0KdG9CaWJ0ZXgoY2l0YXRpb24oInJtYXJrZG93biIpKQpgYGAKClZlbGcgZW4gwqtlbnRyecK7IC0tLSBmLmVrcy4gZnJhIGBgYEBNYW51YWx7LGBgYCB0Lm8ubS4gYGBgfWBgYCAtLS0gdmhhLiBtdXNlbiBvZyBrb3BpZXIgZGVubmUgdmFsZ3RlIHRla3N0ZW4uIEfDpSBzw6UgaW5uIGkgWm90ZXJvIG9nIHZlbGcgYGBgSW1wb3J0ZXIgZnJhIHV0a2xpcHBzdGF2bGVgYGAgZnJhIGBgYEZpbGBgYCBtZW55ZW4uCgojIyBGb3JzbGFnIHRpbCBsaXR0ZXJhdHVyCgpTZSBmb3JlZHJhZyBzb20gbGlnZ2VyIHVuZGVyICpLdXJzZXRzIG1lZGllZmlsZXIqIHDDpSBDYW52YXMuIGJpYi1maWxlbiBzb20gZXIgYnJ1a3QgZm9yIHJlZmVyYW5zZW5lIGkgZm9yZWRyYWcgZXIgb2dzw6UgbGFndCB1dCBww6UgQ2FudmFzICh1bmRlciAqRmlsZXIqKS4gCgpGb3IgZ2VuZXJlbGxlIHRhbmtlciBydW5kdCByZXByb2R1c2VyYmFyaGV0IGVyIEBwZW5nMjAxMSBlbiBnb2Qga2lsZGUuIFZpZGVyZSBnaXIgQG1jY3VsbG91Z2gyMDA4IGVuIGdvZCBpbGx1c3RyYXNqb24gYXYgcHJvYmxlbWV0cyBvbWZhbmcgaW5uZW4gZmFnb21yw6VkZXQgw7hrb25vbWkuIEBtY2N1bGxvdWdoMjAwOCBkaXNrdXRlcmVyIG9nc8OlIG9tIHRpZHNza3JpZnRlbmVzIGFya2l2ZXIgYXYgZGF0YXNldHQgb2cgcHJvZ3JhbWtvZGUgZXIgZW4gdGlsZnJlZHNzdGlsbGVuZGUgbMO4c25pbmcgYXYgcHJvYmxlbWV0LiAgCgpCYXNlcnQgcMOlIHRhbmtlciBmcmEgQGtudXRoMTk5MiBpbnRyb2R1c2VydGUgQGdlbnRsZW1hbjIwMDQgYmVncmVwZXQgwqtjb21wZW5kaXVtwrsgc29tOgoKPmJvdGggYSBjb250YWluZXIgZm9yIHRoZSBkaWZmZXJlbnQgZWxlbWVudHMgdGhhdCBtYWtlIHVwIHRoZSBkb2N1bWVudCBhbmQgaXRzIGNvbXB1dGF0aW9ucyAoaS5lLiB0ZXh0LCBjb2RlLCBkYXRhLCAuLi4pLCBhbmQgYXMgYSBtZWFucyBmb3IgZGlzdHJpYnV0aW5nLCBtYW5hZ2luZyBhbmQgdXBkYXRpbmcgdGhlIGNvbGxlY3Rpb24uCgpEb2t1bWVudGV0IG5ldm50IG92ZW5mb3IgZXIgZGV0IEBnZW50bGVtYW4yMDA0XltSb2JlcnQgR2VudGxlbWFuIGVyIHNhbW1lbiBtZWQgUm9zcyBJaGFrYSByZWduZXQgc29tIMKrZmVkcmVuZcK7IHRpbCBSXSBvbXRhbGVyIHNvbSDCq2R5bmFtaWMgZG9jdW1lbnRzwrsuIEFydGlra2VsZW4gZHLDuGZ0ZXIgb2dzw6UgZGlzc2UgdG8gYmVncmVwZW5lcyByZWxldmFucyBmb3IgwqtyZXByb2R1Y2libGUgcmVzZWFyY2jCuy4gVmlkZXJlIGludHJvZHVzZXJlcyBvZ3PDpSDCq2NvZGUgY2h1bmtzwrsgCgo+c2VxdWVuY2VzIG9mIGNvbW1hbmRzIGluIHNvbWUgcHJvZ3JhbW1pbmcgbGFuZ3VhZ2Ugc3VjaCBhcyBSIG9yIFBlcmwuIENvZGUgY2h1bmtzIGFyZSBpbnRlbmRlZCB0byBiZSBldmFsdWF0ZWQgYWNjb3JkaW5nIHRvIHRoZSBsYW5ndWFnZSBpbiB3aGljaCB0aGV5IGFyZSB3cml0dGVuLiBUaGVzZSBwZXJmb3JtIHRoZSBjb21wdXRhdGlvbnMgbmVlZGVkIHRvIHByb2R1Y2UgdGhlIGFwcHJvcHJpYXRlIG91dHB1dCB3aXRoaW4gdGhlIHBhcGVyLCBhbmQgYWxzbyB0byBwcm9kdWNlIGludGVybWVkaWF0ZSByZXN1bHRzIHVzZWQgYWNyb3NzIGRpZmZlcmVudCBjb2RlIGNodW5rcy4gCgpvZyDCq3RleHQgY2h1bmtzwrsgc29tIGJlc2tyaXZlcyBzb206Cgo+VGV4dCBjaHVua3MgZGVzY3JpYmUgdGhlIHByb2JsZW0sIHRoZSBjb2RlLCB0aGUgcmVzdWx0cyBhbmQgb2Z0ZW4gdGhlaXIgaW50ZXJwcmV0YXRpb24uIFRleHQgY2h1bmtzIGFyZSBpbnRlbmRlZCB0byBiZSBmb3JtYXR0ZWQgZm9yIHJlYWRpbmcuCgpEaXNzZSB0YW5rZW5lIGVyIG9nc8OlIGJsaXR0IGJydWt0IHRpbCDDpSBnamVuc2thcGUgZGVsZXIgYXYgQGdvbHViMTk5OSBzb20gZXQgc2xpa3Qgwqtjb21wZW5kaXVtwrsgW0BnZW50bGVtYW4yMDA1XS4gRGV0dGUgZm9yIMOlIHZpc2UgYXQgaWTDqWVuIGVyIGdqZW5ub21mw7hyYmFyIGkgcHJha2lzLgoKTsOlciBkZXQgZ2plbGRlciDCq1Igbm90ZWJvb2tzwrssIHNvbSBrYW5za2plIGthbiBiZXRyYWt0ZXMgc29tIGVuIGltcGxlbWVudGVyaW5nIGF2IGV0IMKrY29tcGVuZGl1bcK7LCBlciBkaXNzZSBhdmhlbmdpZ2UgYXYgZGUgdG8gcGFra2VuZSBgcm1hcmtkb3duYCwgW0BhbGxhaXJlMjAyMF0sIG9nIGBrbml0cmAsIFtAeGllMjAyMF0uIFIgbWFya2Rvd24gb2cgdGlsaMO4cmVuZGUgcHJvZ3JhbXZhcmUgZXIga2Fuc2tqZSBiZXN0IGJlc2tyZXZldCBpIEB4aWUyMDE4IG9nIEByaWVkZXJlciAuCgojIyBFdCBmb3JzbGFnIHRpbCBkaXNwb3Npc2pvbiAoZGVyZSB0cmVuZ2VyIGlra2UgZGVra2UgYWx0IGxpc3RldCBoZXIpCgotIElubmxlZGluZwogICAgKiBSZXByb2R1c2VyYmFyaGV0LCBSIG5vdGVib29rcwotIExpdHRlcmF0dXJnamVubm9tZ2FuZwogICAgKiBSZXBsaWtlcmJhcmhldC9yZXByb2R1c2VyYmFyaGV0CiAgICAqIFByb2JsZW1ldHMgb21mYW5nCiAgICAgICAgLSBWaWwgZGFnZW5zIGzDuHNuaW5nIG1lZCBhcmtpdiBhdiBkYXRhIG9nIGV2ZW50LiBwcm9ncmFta29kZSBob3MgCiAgICAgICAgdGlkc3NrcmlmdGVuZSBrdW5uZSBsw7hzZSBwcm9ibGVtZXQ/CiAgICAqIE11bGlnIGzDuHNuaW5nICh0ZW9yZXRpc2sgcGxhbik6CiAgICAgICAgLSDCq0NvbXBlbmRpdW3CuywgwqtEeW5hbWljIGRvY3VtZW50wrssIMKrY29kZSBjaHVuY2vCuyBvZyDCq3RleHQgY2h1bmvCuwogICAgKiBNdWxpZyBsw7hzbmluZzoKICAgICAgICAtIFIgTm90ZWJvb2tzCi0gQW5hbHlzZQogICAgKiBMw7hzZXIgUiBub3RlYm9va3MgcHJvYmxlbWV0IG1lZCByZXByb2R1c2VyYmFyaGV0CiAgICAgICAgLSBoZWx0IGVsbGVyIGJhcmUgZGVsdmlzCiAgICAqIEVrc2VtcGxlciBww6Ugwqtjb2RlIGNodW5rc8K7ICjCq1IgQ29kZSBCbG9ja8K7KSBvZyDCq3RleHQgY2h1bmNrwrsgaSBSIG5vdGVib29rCiAgICAqIEhhciBmb3Jza2VybmUgaW5jZW50aXZlciB0aWwgw6UgdsOmcmUgwqtyZXByb2R1c2VyYmFyZcK7LCBlbGxlciBtw6UgZGUgdHZpbmdlcz8KICAgICogRXIgw7hrdCByZXByb2R1c2VyYmFyaGV0IG5vZSBzb20gdmlsIHR2aW5nZSBzZWcgZnJlbSBlbGxlciBlciBkYWdlbnMgCiAgICDDuGt0ZSBpbnRlcmVzc2UgYmFyZSBldCBibGFmZj8KICAgICogS2FuIHJlcHJvZHVzZXJiYXJoZXQgaGEgcmVsZXZhbnMgaSBzZWt0b3JlciB1dGVuZm9yIGFrYWRlbWlhPwotIEtvbmtsdXNqb24KLSBMaXR0ZXJhdHVybGlzdGUKClIgTm90ZWJvb2stZW4gbcOlIGt1bm5lIHRyYW5zZm9ybWVyZXMgdGlsIC5uYi5odG1sLCAucGRmIGZpbC4gb2cgTVMgV29yZCBmb3JtYXQuCgojIyBMaXR0ZXJhdHVybGlzdGUKIDxkaXYgaWQ9InJlZnMiPjwvZGl2Pgo=</div>
 
 
 
@@ -349,7 +417,7 @@ $(document).ready(function () {
 <!-- code folding -->
 <script>
 $(document).ready(function () {
-  window.initializeSourceEmbed("Assignment_1_besvarelse.Rmd");
+  window.initializeSourceEmbed("ass1-writing-R-Notebook.Rmd");
   window.initializeCodeFolding("show" === "show");
 });
 </script>
