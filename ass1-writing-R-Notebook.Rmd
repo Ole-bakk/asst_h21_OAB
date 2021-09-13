@@ -90,5 +90,7 @@ Når det gjelder «R notebooks», som kanskje kan betraktes som en implementerin
 
 R Notebook-en må kunne transformeres til .nb.html, .pdf fil. og MS Word format.
 
+Hva skjer?, @knut
+
 ## Litteraturliste
  <div id="refs"></div>
