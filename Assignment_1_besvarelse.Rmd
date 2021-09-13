@@ -19,7 +19,6 @@ lang: nb-NO
 
 ## disposisjon (dere trenger ikke dekke alt listet her)
 
-<<<<<<< HEAD
 [- Innleding]{.ul}
 
 [\* Reproduserbarhet, R notebooks]{.ul}
@@ -65,7 +64,6 @@ lang: nb-NO
 
 [tidsskriftene kunne løse problemet?]{.ul}
 
->>>>>>> main
 
 \* Mulig løsning (teoretisk plan):
 
@@ -95,7 +93,7 @@ lang: nb-NO
 
 \- Litteraturliste
 
-<<<<<<< HEAD
+
 ## litteraturliste
 =======
 
@@ -106,6 +104,4 @@ For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gi
 # Litteraturliste
 
 
-
->>>>>>> main
 
