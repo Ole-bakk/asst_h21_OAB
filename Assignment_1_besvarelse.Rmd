@@ -19,6 +19,37 @@ lang: nb-NO
 
 ## disposisjon (dere trenger ikke dekke alt listet her)
 
+<<<<<<< HEAD
+[- Innleding]{.ul}
+
+[\* Reproduserbarhet, R notebooks]{.ul}
+
+[- Litteraturgjennomgang]{.ul}
+
+[\* Replikerbarhet/reproduserbarhet]{.ul}
+
+[\* Problemets omfang]{.ul}
+
+-   [Vil dagens løsning med arkiv av data og event. programkode
+    hos]{.ul}
+
+[tidsskriftene kunne løse problemet?]{.ul}
+=======
+
+**- Innleding**
+
+**\* Reproduserbarhet, R notebooks**
+
+**- Litteraturgjennomgang**
+
+**\* Replikerbarhet/reproduserbarhet**
+
+**\* Problemets omfang**
+
+-   **Vil dagens løsning med arkiv av data og event. programkode hos**
+
+**tidsskriftene kunne løse problemet?**
+=======
 [- Innleding]{.ul}
 
 [\* Reproduserbarhet, R notebooks]{.ul}
@@ -34,6 +65,8 @@ lang: nb-NO
 
 [tidsskriftene kunne løse problemet?]{.ul}
 
+>>>>>>> main
+
 \* Mulig løsning (teoretisk plan):
 
 -   «Compendium», «Dynamic document», «code chunck» og «text chunk»
@@ -48,11 +81,9 @@ lang: nb-NO
 
 -   helt eller bare delvis
 
-\* Eksempler på «code chunks» («R Code Block») og «text chunck» i R
-notebook
+\* Eksempler på «code chunks» («R Code Block») og «text chunck» i R notebook
 
-\* Har forskerne incentiver til å være «reproduserbare», eller må de
-tvinges?
+\* Har forskerne incentiver til å være «reproduserbare», eller må de tvinges?
 
 \* Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens
 
@@ -64,5 +95,17 @@ tvinges?
 
 \- Litteraturliste
 
+<<<<<<< HEAD
 ## litteraturliste
+=======
+
+jhekfhkewhf @allaire2020
+
+For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gir @mccullough2008 en god illustrasjon av problemets omfang innen fagområdet økonomi. @mccullough2008 diskuterer også om tidsskriftenes arkiver av datasett og programkode er en tilfredsstillende løsning av problemet
+
+# Litteraturliste
+
+
+
+>>>>>>> main
 

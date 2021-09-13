@@ -1,0 +1,237 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  12pt,
+  norsk,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={«R Notebooks» og reproduserbarhet},
+  pdfauthor={Assignment 1 - MSB 105 - Ole Alexander Bakkevik \& Sindre Espedal},
+  pdflang={nb-NO},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifxetex
+  % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
+  \usepackage{polyglossia}
+  \setmainlanguage[]{norsk}
+\else
+  \usepackage[main=norsk]{babel}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\fi
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\title{«R Notebooks» og reproduserbarhet}
+\author{Assignment 1 - MSB 105 - Ole Alexander Bakkevik \& Sindre
+Espedal}
+\date{}
+
+\begin{document}
+\maketitle
+
+======= bibliography: reproducibility.bib csl: apa-no-ampersand.csl
+fontsize: 12pt output: pdf\_document: keep\_tex: yes word\_document:
+default html\_document: df\_print: paged html\_notebook: default\\
+link-citations: yes lang: nb-NO ---
+
+\hypertarget{disposisjon-dere-trenger-ikke-dekke-alt-listet-her}{%
+\subsection{disposisjon (dere trenger ikke dekke alt listet
+her)}\label{disposisjon-dere-trenger-ikke-dekke-alt-listet-her}}
+
+\textbf{- Innleding}
+
+\textbf{* Reproduserbarhet, R notebooks}
+
+\textbf{- Litteraturgjennomgang}
+
+\textbf{* Replikerbarhet/reproduserbarhet}
+
+\textbf{* Problemets omfang}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Vil dagens løsning med arkiv av data og event. programkode
+  hos}
+\end{itemize}
+
+\hypertarget{tidsskriftene-kunne-luxf8se-problemet}{%
+\section{\texorpdfstring{\textbf{tidsskriftene kunne løse
+problemet?}}{tidsskriftene kunne løse problemet?}}\label{tidsskriftene-kunne-luxf8se-problemet}}
+
+\underline{- Innleding}
+
+\underline{* Reproduserbarhet, R notebooks}
+
+\underline{- Litteraturgjennomgang}
+
+\underline{* Replikerbarhet/reproduserbarhet}
+
+\underline{* Problemets omfang}
+
+\begin{itemize}
+\tightlist
+\item
+  \underline{Vil dagens løsning med arkiv av data og event. programkode
+  hos}
+\end{itemize}
+
+\underline{tidsskriftene kunne løse problemet?}
+
+* Mulig løsning (teoretisk plan):
+
+\begin{itemize}
+\tightlist
+\item
+  «Compendium», «Dynamic document», «code chunck» og «text chunk»
+\end{itemize}
+
+* Mulig løsning:
+
+\begin{itemize}
+\tightlist
+\item
+  R Notebooks
+\end{itemize}
+
+- Analyse
+
+* Løser R notebooks problemet med reproduserbarhet
+
+\begin{itemize}
+\tightlist
+\item
+  helt eller bare delvis
+\end{itemize}
+
+* Eksempler på «code chunks» («R Code Block») og «text chunck» i R
+notebook
+
+* Har forskerne incentiver til å være «reproduserbare», eller må de
+tvinges?
+
+* Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens
+
+økte interesse bare et blaff?
+
+* Kan reproduserbarhet ha relevans i sektorer utenfor akademia?
+
+- Konklusjon
+
+- Litteraturliste
+
+jhekfhkewhf \protect\hyperlink{ref-allaire2020}{Allaire et al.}
+(\protect\hyperlink{ref-allaire2020}{2020})
+
+For generelle tanker rundt reproduserbarhet er
+\protect\hyperlink{ref-peng2011}{Peng}
+(\protect\hyperlink{ref-peng2011}{2011}) en god kilde. Videre gir
+\protect\hyperlink{ref-mccullough2008}{McCullough et al.}
+(\protect\hyperlink{ref-mccullough2008}{2008}) en god illustrasjon av
+problemets omfang innen fagområdet økonomi.
+\protect\hyperlink{ref-mccullough2008}{McCullough et al.}
+(\protect\hyperlink{ref-mccullough2008}{2008}) diskuterer også om
+tidsskriftenes arkiver av datasett og programkode er en
+tilfredsstillende løsning av problemet
+
+\hypertarget{litteraturliste}{%
+\section{Litteraturliste}\label{litteraturliste}}
+
+::: \{\#refs\}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\hypertarget{ref-allaire2020}{}%
+Allaire, J., Xie, Y., McPherson, J., Luraschi, J., Ushey, K., Atkins,
+A., Wickham, H., Cheng, J., Chang, W., og Iannone, R. (2020).
+\emph{Rmarkdown: {Dynamic} Documents for r}.
+
+\leavevmode\hypertarget{ref-mccullough2008}{}%
+McCullough, B. D., McGeary, K. A., og Harrison, T. D. (2008). Do
+Economics Journal Archives Promote Replicable Research? \emph{Canadian
+Journal of Economics/Revue canadienne d'économique}, \emph{41}(4),
+1406--1420. \url{https://doi.org/10.1111/j.1540-5982.2008.00509.x}
+
+\leavevmode\hypertarget{ref-peng2011}{}%
+Peng, R. D. (2011). Reproducible {Research} in {Computational Science}.
+\emph{Science}, \emph{334}(6060), 1226--1227.
+\url{https://doi.org/10.1126/science.1213847}
+
+\end{CSLReferences}
+
+\end{document}

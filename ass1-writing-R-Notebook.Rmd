@@ -3,6 +3,13 @@ title: "«R Notebooks» og reproduserbarhet"
 author: Assignment 1 i kurset Data Science 2020
 affiliation: HVL
 email: arnstein.gjestland@hvl.no
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+bibliography: reproducibility.bib
+=======
+>>>>>>> First_branch
+>>>>>>> main
 csl: apa-no-ampersand.csl
 fontsize: 12pt
 output:
