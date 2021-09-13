@@ -3,15 +3,18 @@ title: "«R Notebooks» og reproduserbarhet"
 author: Assignment 1 i kurset Data Science 2020
 affiliation: HVL
 email: arnstein.gjestland@hvl.no
+<<<<<<< HEAD
 bibliography: reproducibility.bib
+=======
+>>>>>>> First_branch
 csl: apa-no-ampersand.csl
 fontsize: 12pt
 output:
-  pdf_document:
-    keep_tex: yes
-  word_document: default
   html_document:
     df_print: paged
+  word_document: default
+  pdf_document:
+    keep_tex: yes
   html_notebook: default  
 link-citations: yes
 lang: nb-NO
@@ -90,6 +93,8 @@ Når det gjelder «R notebooks», som kanskje kan betraktes som en implementerin
 - Litteraturliste
 
 R Notebook-en må kunne transformeres til .nb.html, .pdf fil. og MS Word format.
+
+Hva skjer?, @knut
 
 ## Litteraturliste
  <div id="refs"></div>
