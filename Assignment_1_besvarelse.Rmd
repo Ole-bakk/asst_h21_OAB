@@ -19,19 +19,20 @@ lang: nb-NO
 
 ## disposisjon (dere trenger ikke dekke alt listet her)
 
-\- Innleding
+[- Innleding]{.ul}
 
-\* Reproduserbarhet, R notebooks
+[\* Reproduserbarhet, R notebooks]{.ul}
 
-\- Litteraturgjennomgang
+[- Litteraturgjennomgang]{.ul}
 
-\* Replikerbarhet/reproduserbarhet
+[\* Replikerbarhet/reproduserbarhet]{.ul}
 
-\* Problemets omfang
+[\* Problemets omfang]{.ul}
 
--   Vil dagens løsning med arkiv av data og event. programkode hos
+-   [Vil dagens løsning med arkiv av data og event. programkode
+    hos]{.ul}
 
-tidsskriftene kunne løse problemet?
+[tidsskriftene kunne løse problemet?]{.ul}
 
 \* Mulig løsning (teoretisk plan):
 
@@ -63,10 +64,5 @@ tvinges?
 
 \- Litteraturliste
 
-Funker dett, @schwab1995.
-
-
-## litteratur
-
-
+## litteraturliste
 
