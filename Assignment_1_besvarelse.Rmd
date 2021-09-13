@@ -3,7 +3,7 @@ title: "«R Notebooks» og reproduserbarhet"
 author: "Assignment 1 - MSB 105 - Ole Alexander Bakkevik & Sindre Espedal"
 affiliation: HVL
 email: 579735@stud.hvl.no & 170691@stud.hvl.no
-bibliography : reprod.bib
+bibliography : reproducibility.bib
 csl: apa-no-ampersand.csl
 fontsize: 12pt
 output:
