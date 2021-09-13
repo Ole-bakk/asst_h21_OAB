@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.3)  13 SEP 2021 12:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.3)  13 SEP 2021 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ass1-writing-R-Notebook.tex
-(./ass1-writing-R-Notebook.tex
+**Assignment_1_besvarelse.tex
+(./Assignment_1_besvarelse.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27> (/Users/olebakkevik/Library/TinyTeX/texmf-dis
 t/tex/latex/base/article.cls
@@ -315,22 +315,6 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen158
 \Gm@layoutvoffset=\dimen159
 \Gm@dimlist=\toks24
-) (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.st
-y
-Package: fancyvrb 2021/08/12 v3.8 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count281
-\FV@InFile=\read2
-\FV@TabBox=\box52
-\c@FancyVerbLine=\count282
-\FV@StepNumber=\count283
-\FV@OutFile=\write3
-) (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/framed/framed.sty
-Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip53
-\fb@frw=\dimen160
-\fb@frh=\dimen161
-\FrameRule=\dimen162
-\FrameSep=\dimen163
 ) (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.st
 y
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
@@ -345,19 +329,19 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen164
-\Gin@req@width=\dimen165
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
 ) (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2021/07/22 3.63 The Babel package
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2021/07/22 3.63 Babel common definitions
-\babel@savecnt=\count284
-\U@D=\dimen166
+\babel@savecnt=\count281
+\U@D=\dimen162
 \l@unhyphenated=\language3
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read3
+\bbl@readstream=\read2
 )
-\bbl@dirlevel=\count285
+\bbl@dirlevel=\count282
 
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/generic/babel-norsk/norsk.ld
 f
@@ -377,47 +361,47 @@ Package babel Info: Making " an active character on input line 113.
 f
 Language: norsk 2012/08/06 v2.0i Norsk support from the babel system
 ))
-\cslhangindent=\skip54
-\csllabelwidth=\skip55
+\cslhangindent=\skip53
+\csllabelwidth=\skip54
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count286
-\calc@Bcount=\count287
-\calc@Adimen=\dimen167
-\calc@Bdimen=\dimen168
-\calc@Askip=\skip56
-\calc@Bskip=\skip57
+\calc@Acount=\count283
+\calc@Bcount=\count284
+\calc@Adimen=\dimen163
+\calc@Bdimen=\dimen164
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count288
-\calc@Cskip=\skip58
+\calc@Ccount=\count285
+\calc@Cskip=\skip57
 )
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pd
 ftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count289
-\l__pdf_internal_box=\box53
-) (./ass1-writing-R-Notebook.aux)
-\openout1 = `ass1-writing-R-Notebook.aux'.
+\l__color_backend_stack_int=\count286
+\l__pdf_internal_box=\box52
+) (./Assignment_1_besvarelse.aux)
+\openout1 = `Assignment_1_besvarelse.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
 
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-
 base.sty
@@ -430,7 +414,7 @@ ys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 143.
+Package hyperref Info: Link coloring OFF on input line 104.
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -440,14 +424,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 tlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count290
+\c@section@level=\count287
 )
-LaTeX Info: Redefining \ref on input line 143.
-LaTeX Info: Redefining \pageref on input line 143.
-LaTeX Info: Redefining \nameref on input line 143.
-(./ass1-writing-R-Notebook.out) (./ass1-writing-R-Notebook.out)
-\@outlinefile=\write4
-\openout4 = `ass1-writing-R-Notebook.out'.
+LaTeX Info: Redefining \ref on input line 104.
+LaTeX Info: Redefining \pageref on input line 104.
+LaTeX Info: Redefining \nameref on input line 104.
+(./Assignment_1_besvarelse.out) (./Assignment_1_besvarelse.out)
+\@outlinefile=\write3
+\openout3 = `Assignment_1_besvarelse.out'.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -484,100 +468,78 @@ LaTeX Info: Redefining \nameref on input line 143.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-45.
+06.
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-45.
+06.
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-145.
+106.
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-145.
+106.
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 145.
+(Font)              <14.4> on input line 106.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 145.
+(Font)              <10> on input line 106.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 145.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 145
+(Font)              <7> on input line 106.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 106
 .
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 145
+LaTeX Font Info:    Trying to load font information for U+msb on input line 106
 .
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-90.
-(/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \hbox (684.97055pt too wide) in paragraph at lines 245--245
-[]\T1/lmtt/m/n/12 ##   author = {JJ Allaire and Yihui Xie and Jonathan McPherso
-n and Javier Luraschi and Kevin Ushey and Aron Atkins and Hadley Wickham and Jo
-e Cheng and Winston Chang and Richard Iannone},[] 
- []
-
-[1
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+24.
+(/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [1
 
 {/Users/olebakkevik/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
 p}]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 281.
+(Font)              <12> on input line 200.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 281.
+(Font)              <8> on input line 200.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 281.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 282.
-[2]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-26.
-(/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [3] [4] (./ass1-writing-R-Notebook.aux)
-Package rerunfilecheck Info: File `ass1-writing-R-Notebook.out' has not changed
+(Font)              <6> on input line 200.
+[2] (./Assignment_1_besvarelse.aux)
+Package rerunfilecheck Info: File `Assignment_1_besvarelse.out' has not changed
 .
-(rerunfilecheck)             Checksum: 8AEFA41E7D01B49377C15B2BF92C7A62;694.
+(rerunfilecheck)             Checksum: 5E2B1D93765AF5684FFD84462C81E262;450.
  ) 
 Here is how much of TeX's memory you used:
- 11645 strings out of 480559
- 174247 string characters out of 5902368
- 497719 words of memory out of 5000000
- 29025 multiletter control sequences out of 15000+600000
- 465245 words of font info for 76 fonts, out of 8000000 for 9000
+ 11071 strings out of 480559
+ 165650 string characters out of 5902368
+ 481858 words of memory out of 5000000
+ 28499 multiletter control sequences out of 15000+600000
+ 453696 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,8n,66p,474b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{ref-gentleman2004} has been referenced but does n
-ot exist, replaced by a fixed one
-
-{/Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/U
-sers/olebakkevik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</Use
-rs/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Us
-ers/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></
-Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></
+ 60i,6n,66p,390b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{
+/Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</U
+sers/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></
 Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></
 Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></
-Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></U
-sers/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Us
-ers/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb></U
-sers/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ass1-writing-R-Notebook.pdf (4 pages, 233027 bytes).
+Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on Assignment_1_besvarelse.pdf (2 pages, 112333 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
