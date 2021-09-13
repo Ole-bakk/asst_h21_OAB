@@ -537,7 +537,11 @@ ampersand.csl font-size: 12pt
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 29.
+<<<<<<< HEAD
 (/Users/sindreespedal/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+=======
+(/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+>>>>>>> d58270b2527030e358340b1c0108c89eda3a809b
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -548,20 +552,30 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 137.
 [1
 
+<<<<<<< HEAD
 {/Users/sindreespedal/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.
 map}] [2] (./Assignment_1_besvarelse.aux)
+=======
+{/Users/olebakkevik/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
+p}] [2] (./Assignment_1_besvarelse.aux)
+>>>>>>> d58270b2527030e358340b1c0108c89eda3a809b
 Package rerunfilecheck Info: File `Assignment_1_besvarelse.out' has not changed
 .
 (rerunfilecheck)             Checksum: 41BF623F0A3DE271FEE63EC99E228006;681.
  ) 
 Here is how much of TeX's memory you used:
  11076 strings out of 480559
+<<<<<<< HEAD
  166112 string characters out of 5902368
+=======
+ 165760 string characters out of 5902368
+>>>>>>> d58270b2527030e358340b1c0108c89eda3a809b
  481961 words of memory out of 5000000
  28502 multiletter control sequences out of 15000+600000
  453696 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,6n,66p,390b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+<<<<<<< HEAD
 {/Users/sindreespedal/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 }{/Users/sindreespedal/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 }</Users/sindreespedal/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.
@@ -569,6 +583,14 @@ pfb></Users/sindreespedal/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr1
 2.pfb></Users/sindreespedal/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lm
 r17.pfb></Users/sindreespedal/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/
 lmri12.pfb>
+=======
+{/Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{
+/Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</U
+sers/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></
+Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></
+Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></
+Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+>>>>>>> d58270b2527030e358340b1c0108c89eda3a809b
 Output written on Assignment_1_besvarelse.pdf (2 pages, 114153 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
