@@ -3,6 +3,7 @@ title: "«R Notebooks» og reproduserbarhet"
 author: "Assignment 1 - MSB 105 - Ole Alexander Bakkevik & Sindre Espedal"
 affiliation: HVL
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -52,3 +53,6 @@ tvinges?
 \- Konklusjon
 
 \- Litteraturliste
+
+#references 
+
