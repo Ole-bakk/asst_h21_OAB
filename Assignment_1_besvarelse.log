@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.3)  13 SEP 2021 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.3)  13 SEP 2021 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -381,7 +381,8 @@ ftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box52
-) (./Assignment_1_besvarelse.aux)
+)
+No file Assignment_1_besvarelse.aux.
 \openout1 = `Assignment_1_besvarelse.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
@@ -429,7 +430,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 104.
 LaTeX Info: Redefining \pageref on input line 104.
 LaTeX Info: Redefining \nameref on input line 104.
-(./Assignment_1_besvarelse.out) (./Assignment_1_besvarelse.out)
 \@outlinefile=\write3
 \openout3 = `Assignment_1_besvarelse.out'.
 
@@ -503,43 +503,42 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 106
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Underfull \hbox (badness 1521) in paragraph at lines 107--111
+[]\T1/lmr/m/n/12 ======= bib-li-og-ra-phy: re-pro-ducibil-i-ty.bib csl: apa-no-
+ampersand.csl font-size: 12pt
+ []
+
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-24.
+30.
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [1
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 138.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 138.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 138.
+[1
 
 {/Users/olebakkevik/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
 p}]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 200.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 200.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 200.
-[2] (./Assignment_1_besvarelse.aux)
-Package rerunfilecheck Info: File `Assignment_1_besvarelse.out' has not changed
-.
-(rerunfilecheck)             Checksum: 5E2B1D93765AF5684FFD84462C81E262;450.
- ) 
+
+! LaTeX Error: Too deeply nested.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 \begin{quote}
+                    
 Here is how much of TeX's memory you used:
- 11071 strings out of 480559
- 165650 string characters out of 5902368
- 481858 words of memory out of 5000000
- 28499 multiletter control sequences out of 15000+600000
+ 11055 strings out of 480559
+ 165436 string characters out of 5902368
+ 481557 words of memory out of 5000000
+ 28495 multiletter control sequences out of 15000+600000
  453696 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,6n,66p,390b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{
-/Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</U
-sers/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></
-Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></
-Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></
-Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on Assignment_1_besvarelse.pdf (2 pages, 112333 bytes).
-PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 60i,6n,66p,257b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+!  ==> Fatal error occurred, no output PDF file produced!

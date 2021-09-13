@@ -2,20 +2,16 @@
 title: "«R Notebooks» og reproduserbarhet"
 author: "Assignment 1 - MSB 105 - Ole Alexander Bakkevik & Sindre Espedal"
 affiliation: HVL
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 email: 579735@stud.hvl.no & 170691@stud.hvl.no
 bibliography : reproducibility.bib
 csl: apa-no-ampersand.csl
 fontsize: 12pt
->>>>>>> First_branch
 output:
-  html_document:
-    df_print: paged
-  word_document: default
   pdf_document:
     keep_tex: yes
+  word_document: default
+  html_document:
+    df_print: paged
   html_notebook: default  
 link-citations: yes
 lang: nb-NO
@@ -38,7 +34,7 @@ lang: nb-NO
 
 ## disposisjon (dere trenger ikke dekke alt listet her)
 
-<<<<<<< HEAD
+
 **- Innleding**
 
 **\* Reproduserbarhet, R notebooks**
@@ -67,7 +63,7 @@ lang: nb-NO
     hos]{.ul}
 
 [tidsskriftene kunne løse problemet?]{.ul}
->>>>>>> First_branch
+
 
 \* Mulig løsning (teoretisk plan):
 
@@ -97,7 +93,7 @@ lang: nb-NO
 
 \- Litteraturliste
 
-<<<<<<< HEAD
+
 jhekfhkewhf @allaire2020
 
 For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gir @mccullough2008 en god illustrasjon av problemets omfang innen fagområdet økonomi. @mccullough2008 diskuterer også om tidsskriftenes arkiver av datasett og programkode er en tilfredsstillende løsning av problemet
@@ -105,9 +101,6 @@ For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gi
 # Litteraturliste
 
 ::: {#refs}
-:::
->>>>>>> second
-=======
-## litteraturliste
 
->>>>>>> First_branch
+
+
