@@ -26,6 +26,15 @@ slutten?
 
 -   Reproduserbarhet / Replikerbarhet - Peng eller McNutt
 
+**Replikerbarhet**
+
+Det e å kunne replikere forskningsresultater av andre forskere er en
+viktig del av metodikken i vitenskap. Likevel har det å
+
+Dewald og co forsøkte å replikere et antall datasett og de fant ut at
+utilsiktede feil i empiriske artikler er snarer vanlig enn uvanlig
+[@dewald1986]. 
+
 -   Problemets omfang - McCullough
 
 -   Mulig løsning - Compenduim, Dynamic document og/eller code-/text
