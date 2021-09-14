@@ -28,19 +28,23 @@ slutten?
 
 **Replikerbarhet**
 
-Det e å kunne replikere forskningsresultater av andre forskere er en
-viktig del av metodikken i vitenskap. Likevel har det å
+Det å kunne replikere forskningsresultater av andre forskere er en
+viktig del av metodikken i vitenskap. Tidligere har det vært lite
+testing av replikerbarhet. Årsaker til dette er at det ikke fremmes å
+replikere en annen forskers arbeid. Det kan også oppstå kritikk om
+mangel på kreativitet og fantasi. Det stilles også et kritisk spørsmål
+til forskerens integritet ettersom man kan tolkes som kritisk til
+funnene eller at man ikke har tillit til forskeren. Slike argumenter
+gjør det mindre attraktiv å gjennomføre replikasjonsstudier.
 
 Dewald og co forsøkte å replikere et antall datasett og de fant ut at
 utilsiktede feil i empiriske artikler er snarer vanlig enn uvanlig
-[@dewald1986]. 
+[@dewald1986]. Også det å etter...
 
 -   Problemets omfang - McCullough
 
 -   Mulig løsning - Compenduim, Dynamic document og/eller code-/text
     chunk?
-
-Lurer på om dette vil gå [@xie2020].
 
 jhekfhkewhf @allaire2020
 
