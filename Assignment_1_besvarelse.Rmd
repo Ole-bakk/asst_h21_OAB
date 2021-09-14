@@ -7,11 +7,11 @@ bibliography : reproducibility.bib
 csl: apa-no-ampersand.csl
 fontsize: 12pt
 output:
-  pdf_document:
-    keep_tex: yes
-  word_document: default
   html_document:
     df_print: paged
+  word_document: default
+  pdf_document:
+    keep_tex: yes
   html_notebook: default  
 link-citations: yes
 lang: nb-NO
