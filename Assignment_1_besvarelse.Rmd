@@ -19,10 +19,24 @@ lang: nb-NO
 
 ## disposisjon (dere trenger ikke dekke alt listet her)
 
-
 **- Innleding**
 
+There is mainly two basic reasons to be concerned about making research reproducible. The first is to show evidence of the correctness of your results. Descriptions contained in scholarly publications are rarely sufficient to convince sceptical readers of the reliability of our work. In simpler times, scholarly publications showed the reader most of the work involved in getting the result. The reader could make an informed choice about the credibility of the science. Now, the reader may feel they are being asked to blindly trust in all the details that were not described in the original journal article.
+
+Adopting a reproducible workflow means providing our audience with the code and data that demonstrates the decisions we made as we generated our results. This makes it easier for others to satisfy themselves that our results are reliable (or not, since reproducibility is no guarantee of correctness).
+
+The second reason to aspire to reproducibility is to enable others to make use of our methods and results. Equipped with only our published article, our colleagues might struggle to reconstruct our method in enough detail to apply it to their own data. Adopting a reproducible workflow means publishing our code and data in order to allow our colleagues to extend our approach to new applications with a minimum of effort. This has the potential to save a great deal of time in transmitting knowledge to future researchers. **(copy pastet=skal omskrives)**
+
+In this paper will discuss the topics mentioned above in an light,yet hopefully understandable way.
+
+<https://ropensci.github.io/reproducibility-guide/sections/introduction/>
+
 **\* Reproduserbarhet, R notebooks**
+
+Roger D. Peng states in his article "Reproducible Research in
+Computational Science, 2011" that "The standard of reproducibility calls for the data and
+the computer code used to analyze the data be made available to others" @peng2011. \
+As a standard , it creates a tedious and non-effective approach to replication. A far more beneficial process is to independently inspect utilized data variables. R notebook\
 
 **- Litteraturgjennomgang**
 
@@ -32,23 +46,7 @@ lang: nb-NO
 
 -   **Vil dagens løsning med arkiv av data og event. programkode hos**
 
-**tidsskriftene kunne løse problemet?**
-=======
-[- Innleding]{.ul}
-
-[\* Reproduserbarhet, R notebooks]{.ul}
-
-[- Litteraturgjennomgang]{.ul}
-
-[\* Replikerbarhet/reproduserbarhet]{.ul}
-
-[\* Problemets omfang]{.ul}
-
--   [Vil dagens løsning med arkiv av data og event. programkode
-    hos]{.ul}
-
-[tidsskriftene kunne løse problemet?]{.ul}
-
+# **tidsskriftene kunne løse problemet?**
 
 \* Mulig løsning (teoretisk plan):
 
@@ -68,6 +66,8 @@ lang: nb-NO
 
 \* Har forskerne incentiver til å være «reproduserbare», eller må de tvinges?
 
+Her kan jeg skrive et avsnitt om Andrew Wakefield ; <https://onlinelibrary.wiley.com/doi/full/10.1111/jnc.13844>
+
 \* Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens
 
 økte interesse bare et blaff?
@@ -78,7 +78,6 @@ lang: nb-NO
 
 \- Litteraturliste
 
-
 jhekfhkewhf @allaire2020
 
 For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gir @mccullough2008 en god illustrasjon av problemets omfang innen fagområdet økonomi. @mccullough2008 diskuterer også om tidsskriftenes arkiver av datasett og programkode er en tilfredsstillende løsning av problemet
@@ -86,7 +85,3 @@ For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gi
 [@peng2011] lkdflflkejflelfjlkejflkje
 
 # Litteraturliste
-
-
-
-
