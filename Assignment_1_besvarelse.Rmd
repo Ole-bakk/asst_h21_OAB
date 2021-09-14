@@ -16,25 +16,29 @@ output:
 link-citations: yes
 lang: nb-NO
 ---
+
 ## Introduksjon
-Her kan kanskje vi kanskje skrive noe i lag, kanskje lettest å skrive i slutten?
 
-## Litteraturgjennomgang 
+Her kan kanskje vi kanskje skrive noe i lag, kanskje lettest å skrive i
+slutten?
 
+## Litteraturgjennomgang
 
+-   Reproduserbarhet / Replikerbarhet - Peng eller McNutt
 
+-   Problemets omfang - McCullough
 
+-   Mulig løsning - Compenduim, Dynamic document og/eller code-/text
+    chunk?
 
-
-
-
-
+Lurer på om dette vil gå [@xie2020].
 
 jhekfhkewhf @allaire2020
 
-For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gir @mccullough2008 en god illustrasjon av problemets omfang innen fagområdet økonomi. @mccullough2008 diskuterer også om tidsskriftenes arkiver av datasett og programkode er en tilfredsstillende løsning av problemet
+For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde.
+Videre gir @mccullough2008 en god illustrasjon av problemets omfang
+innen fagområdet økonomi. @mccullough2008 diskuterer også om
+tidsskriftenes arkiver av datasett og programkode er en
+tilfredsstillende løsning av problemet
 
 # Litteraturliste
-
-
-
