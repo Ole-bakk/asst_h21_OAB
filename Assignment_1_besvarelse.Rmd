@@ -39,7 +39,10 @@ gjør det mindre attraktiv å gjennomføre replikasjonsstudier.
 
 Dewald og co forsøkte å replikere et antall datasett og de fant ut at
 utilsiktede feil i empiriske artikler er snarer vanlig enn uvanlig
-[@dewald1986]. Også det å etter...
+[@dewald1986]. Selvom det er ganske vanlig at feil oppstår i empirisk
+økonomisk forskning, er det ganske frustrerende og vanskelig å replikere
+og bygge videre på forksningen når det er mange feil i datasettet og ser
+ikke ut til å påvirke konklusjonen av forfatterne betydelig.
 
 -   Problemets omfang - McCullough
 
