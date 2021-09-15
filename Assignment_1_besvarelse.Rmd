@@ -24,8 +24,6 @@ slutten?
 
 ## Litteraturgjennomgang
 
--   Reproduserbarhet / Replikerbarhet - Peng eller McNutt
-
 **Replikerbarhet**
 
 Det å kunne replikere forskningsresultater av andre forskere er en
@@ -53,6 +51,8 @@ akriver. Det bemerkes at få forskere benytter seg av muligheten som
 tilbys til å engasjere seg i replikering fordi økonomisk yrke vurderer
 replikering som et ideal for å bli kjent, men ikke å bli praktisert
 [@mccullough2008].
+
+## Mulig løsning
 
 -   Problemets omfang - McCullough
 
