@@ -41,8 +41,18 @@ Dewald og co forsøkte å replikere et antall datasett og de fant ut at
 utilsiktede feil i empiriske artikler er snarer vanlig enn uvanlig
 [@dewald1986]. Selvom det er ganske vanlig at feil oppstår i empirisk
 økonomisk forskning, er det ganske frustrerende og vanskelig å replikere
-og bygge videre på forksningen når det er mange feil i datasettet og ser
-ikke ut til å påvirke konklusjonen av forfatterne betydelig.
+og bygge videre på forksningen når det er mange feil i datasettet og det
+ser heller ikke ut til å påvirke konklusjonen av forfatterne betydelig.
+
+I nyere tid har teknologien gjort det enklere og billigere å lage og
+vedlikeholde journale arkiver. Likevel har @mccullough2008 i artikkelen
+"Do Economics Journal Archives Promote Replicable Research?" vist funn
+på at det potensielle tilbudet reduseres når redaktører ikke klarer å
+håndheve og forfattere ikke overholder retningslinjene til journal
+akriver. Det bemerkes at få forskere benytter seg av muligheten som
+tilbys til å engasjere seg i replikering fordi økonomisk yrke vurderer
+replikering som et ideal for å bli kjent, men ikke å bli praktisert
+[@mccullough2008].
 
 -   Problemets omfang - McCullough
 
