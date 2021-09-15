@@ -7,11 +7,11 @@ bibliography : reproducibility.bib
 csl: apa-no-ampersand.csl
 fontsize: 12pt
 output:
-  html_document:
-    df_print: paged
-  word_document: default
   pdf_document:
     keep_tex: yes
+  word_document: default
+  html_document:
+    df_print: paged
   html_notebook: default  
 link-citations: yes
 lang: nb-NO
@@ -19,24 +19,24 @@ lang: nb-NO
 
 ## disposisjon (dere trenger ikke dekke alt listet her)
 
-**- Innleding**
+### Introduction 
 
-There is mainly two basic reasons to be concerned about making research reproducible. The first is to show evidence of the correctness of your results. Descriptions contained in scholarly publications are rarely sufficient to convince sceptical readers of the reliability of our work. In simpler times, scholarly publications showed the reader most of the work involved in getting the result. The reader could make an informed choice about the credibility of the science. Now, the reader may feel they are being asked to blindly trust in all the details that were not described in the original journal article.
+There is mainly two basic reasons to be concerned about making research reproducible.
+
+*The first* is to show evidence of the correctness of your results. Descriptions contained in scholarly publications are rarely sufficient to convince sceptical readers of the reliability of our work. In simpler times, scholarly publications showed the reader most of the work involved in getting the result. The reader could make an informed choice about the credibility of the science. Now, the reader may feel they are being asked to blindly trust in all the details that were not described in the original journal article.
 
 Adopting a reproducible workflow means providing our audience with the code and data that demonstrates the decisions we made as we generated our results. This makes it easier for others to satisfy themselves that our results are reliable (or not, since reproducibility is no guarantee of correctness).
 
-The second reason to aspire to reproducibility is to enable others to make use of our methods and results. Equipped with only our published article, our colleagues might struggle to reconstruct our method in enough detail to apply it to their own data. Adopting a reproducible workflow means publishing our code and data in order to allow our colleagues to extend our approach to new applications with a minimum of effort. This has the potential to save a great deal of time in transmitting knowledge to future researchers. **(copy pastet=skal omskrives)**
+*The second* reason to aspire to reproducibility is to enable others to make use of our methods and results. Equipped with only our published article, our colleagues might struggle to reconstruct our method in enough detail to apply it to their own data. Adopting a reproducible workflow means publishing our code and data in order to allow our colleagues to extend our approach to new applications with a minimum of effort. This has the potential to save a great deal of time in transmitting knowledge to future researchers. **(copy pastet=skal omskrives)**
 
-In this paper will discuss the topics mentioned above in an light,yet hopefully understandable way.
+In this paper will discuss the topics mentioned above in an light,yet hopefully understandable manner.
 
 <https://ropensci.github.io/reproducibility-guide/sections/introduction/>
 
-**\* Reproduserbarhet, R notebooks**
+### Reproducibility, R notebooks
 
-Roger D. Peng states in his article "Reproducible Research in
-Computational Science, 2011" that "The standard of reproducibility calls for the data and
-the computer code used to analyze the data be made available to others" @peng2011. \
-As a standard , it creates a tedious and non-effective approach to replication. A far more beneficial process is to independently inspect utilized data variables. R notebook\
+Roger D. Peng states in his article "Reproducible Research in Computational Science, 2011" that "The standard of reproducibility calls for the data and the computer code used to analyze the data be made available to others" @peng2011.\
+As a standard , it creates a tedious and non-effective approach to replication. A far more beneficial process is to independently inspect utilized data variables. R-notebook and other reproducible systems would serve as an crucial component in verifying scientific results.\
 
 **- Litteraturgjennomgang**
 
@@ -66,7 +66,51 @@ As a standard , it creates a tedious and non-effective approach to replication. 
 
 \* Har forskerne incentiver til å være «reproduserbare», eller må de tvinges?
 
-Her kan jeg skrive et avsnitt om Andrew Wakefield ; <https://onlinelibrary.wiley.com/doi/full/10.1111/jnc.13844>
+### Incentivizing reproducibility
+
+Over the past several years, a series of publications and policy statements have generated increasing awareness in the scientific community of the scale and implications of the problem of irreproducible data---or at least lack of robust results---particularly in the realm of basic and translational research.
+
+Recent studies have shown that the key findings in 50% or more of published reports in certain fields cannot be reproduced. As the public, government, and private funders of research comprehend the extent of the problem, trust in the scientific enterprise erodes, and confidence in the ability of the scientific community to address this problem wanes. In addition, there is considerable potential for reputational damage to scientists, universities, and entire fields (for example, cancer biology, genomics, and psychology).
+
+<https://www.science.org/doi/full/10.1126/scitranslmed.aaf5003>
+
+One possible cause of irreproducible-data is stated by Hessen as"*Scientists are incentivized to produce more results at the expense of spending more time on the reproducibility of any
+given result*". Hessen furthermore list three possible solutions:
+
+-   One solution is to eliminate imperfections in the peer review system.\
+    *(Without those imperfections credit incentives are perfectly aligned with the social optimum in Hessen\`s model)*
+
+-   Another solution focuses on the amount of credit given for irreproducible results. \
+    *(If the credit given to irreproducible results matched the social value of those results more closely, the gap between the credit-maximizing optimum
+    and the social optimum would be reduced)*
+
+-   A third solution aims to compensate for the misalignment. \
+    (l*imiting the number of papers scientists may publish per unit time)*
+
+<https://www.repository.cam.ac.uk/bitstream/handle/1810/288025/Heesen%202018%20Why%20the%20Reward%20Structure%20of%20Science%20Makes%20Reproducibility%20Problems%20Inevitable.pdf?sequence=3>
+
+### Incentivizing gone wrong
+
+A good example of fraudulent science is Andrew Wakefield and his study on the link between autism and the MMR vaccine published in the Lancet. Wakefield was paid by a Legal Aid Board of parents of children with autism to conduct a pilot study of virological investigation in autistic children, some of whom were included in the Lancet publication. Additionally, Wakefield most likely manipulated the data, thus representing in false results. Since then Wakefield has become the "*godfather*" for the anti-vaccine movement, a movement whom have grown exponentially during the covid-19 pandemic.
+
+<https://onlinelibrary.wiley.com/doi/full/10.1111/jnc.13844>
+
+### Example list 2 level
+
+```{r}
+l <- list(x = 1:4, y = c(TRUE, FALSE, FALSE), z = c("aa", "bb"), zz= c(2.1, 4.33))
+str(l)
+```
+
+### Session info
+
+\# Example session info:
+
+```{r}
+sessionInfo()
+```
+
+The session info function provides the reader information regarding which operating system, packages and data sets that have been used. This information is crucial in terms of gaining reproducibility.
 
 \* Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens
 
@@ -85,3 +129,7 @@ For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gi
 [@peng2011] lkdflflkejflelfjlkejflkje
 
 # Litteraturliste
+
+### Display of Git commits and three branches 
+
+![](images/paste-7A7BFE4C.png)

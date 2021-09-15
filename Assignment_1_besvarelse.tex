@@ -45,6 +45,46 @@
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
 \usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -108,9 +148,55 @@ Espedal}
 \subsection{disposisjon (dere trenger ikke dekke alt listet
 her)}\label{disposisjon-dere-trenger-ikke-dekke-alt-listet-her}}
 
-\textbf{- Innleding}
+\hypertarget{introduction}{%
+\subsubsection{Introduction}\label{introduction}}
 
-\textbf{* Reproduserbarhet, R notebooks}
+There is mainly two basic reasons to be concerned about making research
+reproducible.
+
+\emph{The first} is to show evidence of the correctness of your results.
+Descriptions contained in scholarly publications are rarely sufficient
+to convince sceptical readers of the reliability of our work. In simpler
+times, scholarly publications showed the reader most of the work
+involved in getting the result. The reader could make an informed choice
+about the credibility of the science. Now, the reader may feel they are
+being asked to blindly trust in all the details that were not described
+in the original journal article.
+
+Adopting a reproducible workflow means providing our audience with the
+code and data that demonstrates the decisions we made as we generated
+our results. This makes it easier for others to satisfy themselves that
+our results are reliable (or not, since reproducibility is no guarantee
+of correctness).
+
+\emph{The second} reason to aspire to reproducibility is to enable
+others to make use of our methods and results. Equipped with only our
+published article, our colleagues might struggle to reconstruct our
+method in enough detail to apply it to their own data. Adopting a
+reproducible workflow means publishing our code and data in order to
+allow our colleagues to extend our approach to new applications with a
+minimum of effort. This has the potential to save a great deal of time
+in transmitting knowledge to future researchers. \textbf{(copy
+pastet=skal omskrives)}
+
+In this paper will discuss the topics mentioned above in an light,yet
+hopefully understandable manner.
+
+\url{https://ropensci.github.io/reproducibility-guide/sections/introduction/}
+
+\hypertarget{reproducibility-r-notebooks}{%
+\subsubsection{Reproducibility, R
+notebooks}\label{reproducibility-r-notebooks}}
+
+Roger D. Peng states in his article ``Reproducible Research in
+Computational Science, 2011'' that ``The standard of reproducibility
+calls for the data and the computer code used to analyze the data be
+made available to others'' \protect\hyperlink{ref-peng2011}{Peng}
+(\protect\hyperlink{ref-peng2011}{2011}).\\
+As a standard , it creates a tedious and non-effective approach to
+replication. A far more beneficial process is to independently inspect
+utilized data variables. R-notebook and other reproducible systems would
+serve as an crucial component in verifying scientific results.\\
 
 \textbf{- Litteraturgjennomgang}
 
@@ -128,25 +214,6 @@ her)}\label{disposisjon-dere-trenger-ikke-dekke-alt-listet-her}}
 \hypertarget{tidsskriftene-kunne-luxf8se-problemet}{%
 \section{\texorpdfstring{\textbf{tidsskriftene kunne løse
 problemet?}}{tidsskriftene kunne løse problemet?}}\label{tidsskriftene-kunne-luxf8se-problemet}}
-
-\underline{- Innleding}
-
-\underline{* Reproduserbarhet, R notebooks}
-
-\underline{- Litteraturgjennomgang}
-
-\underline{* Replikerbarhet/reproduserbarhet}
-
-\underline{* Problemets omfang}
-
-\begin{itemize}
-\tightlist
-\item
-  \underline{Vil dagens løsning med arkiv av data og event. programkode
-  hos}
-\end{itemize}
-
-\underline{tidsskriftene kunne løse problemet?}
 
 * Mulig løsning (teoretisk plan):
 
@@ -180,6 +247,123 @@ notebook
 * Har forskerne incentiver til å være «reproduserbare», eller må de
 tvinges?
 
+\hypertarget{incentivizing-reproducibility}{%
+\subsubsection{Incentivizing
+reproducibility}\label{incentivizing-reproducibility}}
+
+Over the past several years, a series of publications and policy
+statements have generated increasing awareness in the scientific
+community of the scale and implications of the problem of irreproducible
+data---or at least lack of robust results---particularly in the realm of
+basic and translational research.
+
+Recent studies have shown that the key findings in 50\% or more of
+published reports in certain fields cannot be reproduced. As the public,
+government, and private funders of research comprehend the extent of the
+problem, trust in the scientific enterprise erodes, and confidence in
+the ability of the scientific community to address this problem wanes.
+In addition, there is considerable potential for reputational damage to
+scientists, universities, and entire fields (for example, cancer
+biology, genomics, and psychology).
+
+\url{https://www.science.org/doi/full/10.1126/scitranslmed.aaf5003}
+
+One possible cause of irreproducible-data is stated by Hessen
+as``\emph{Scientists are incentivized to produce more results at the
+expense of spending more time on the reproducibility of any given
+result}''. Hessen furthermore list three possible solutions:
+
+\begin{itemize}
+\item
+  One solution is to eliminate imperfections in the peer review
+  system.\\
+  \emph{(Without those imperfections credit incentives are perfectly
+  aligned with the social optimum in Hessen`s model)}
+\item
+  Another solution focuses on the amount of credit given for
+  irreproducible results.\\
+  \emph{(If the credit given to irreproducible results matched the
+  social value of those results more closely, the gap between the
+  credit-maximizing optimum and the social optimum would be reduced)}
+\item
+  A third solution aims to compensate for the misalignment.\\
+  (l\emph{imiting the number of papers scientists may publish per unit
+  time)}
+\end{itemize}
+
+\url{https://www.repository.cam.ac.uk/bitstream/handle/1810/288025/Heesen\%202018\%20Why\%20the\%20Reward\%20Structure\%20of\%20Science\%20Makes\%20Reproducibility\%20Problems\%20Inevitable.pdf?sequence=3}
+
+\hypertarget{incentivizing-gone-wrong}{%
+\subsubsection{Incentivizing gone
+wrong}\label{incentivizing-gone-wrong}}
+
+A good example of fraudulent science is Andrew Wakefield and his study
+on the link between autism and the MMR vaccine published in the Lancet.
+Wakefield was paid by a Legal Aid Board of parents of children with
+autism to conduct a pilot study of virological investigation in autistic
+children, some of whom were included in the Lancet publication.
+Additionally, Wakefield most likely manipulated the data, thus
+representing in false results. Since then Wakefield has become the
+``\emph{godfather}'' for the anti-vaccine movement, a movement whom have
+grown exponentially during the covid-19 pandemic.
+
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/jnc.13844}
+
+\hypertarget{example-list-2-level}{%
+\subsubsection{Example list 2 level}\label{example-list-2-level}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{l }\OtherTok{\textless{}{-}} \FunctionTok{list}\NormalTok{(}\AttributeTok{x =} \DecValTok{1}\SpecialCharTok{:}\DecValTok{4}\NormalTok{, }\AttributeTok{y =} \FunctionTok{c}\NormalTok{(}\ConstantTok{TRUE}\NormalTok{, }\ConstantTok{FALSE}\NormalTok{, }\ConstantTok{FALSE}\NormalTok{), }\AttributeTok{z =} \FunctionTok{c}\NormalTok{(}\StringTok{"aa"}\NormalTok{, }\StringTok{"bb"}\NormalTok{), }\AttributeTok{zz=} \FunctionTok{c}\NormalTok{(}\FloatTok{2.1}\NormalTok{, }\FloatTok{4.33}\NormalTok{))}
+\FunctionTok{str}\NormalTok{(l)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## List of 4
+##  $ x : int [1:4] 1 2 3 4
+##  $ y : logi [1:3] TRUE FALSE FALSE
+##  $ z : chr [1:2] "aa" "bb"
+##  $ zz: num [1:2] 2.1 4.33
+\end{verbatim}
+
+\hypertarget{session-info}{%
+\subsubsection{Session info}\label{session-info}}
+
+\# Example session info:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{sessionInfo}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## R version 4.1.1 (2021-08-10)
+## Platform: x86_64-apple-darwin17.0 (64-bit)
+## Running under: macOS Big Sur 10.16
+## 
+## Matrix products: default
+## BLAS:   /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRblas.0.dylib
+## LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib
+## 
+## locale:
+## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## loaded via a namespace (and not attached):
+##  [1] compiler_4.1.1  magrittr_2.0.1  fastmap_1.1.0   tools_4.1.1    
+##  [5] htmltools_0.5.2 yaml_2.2.1      stringi_1.7.4   rmarkdown_2.10 
+##  [9] knitr_1.33      stringr_1.4.0   xfun_0.25       digest_0.6.27  
+## [13] rlang_0.4.11    evaluate_0.14
+\end{verbatim}
+
+The session info function provides the reader information regarding
+which operating system, packages and data sets that have been used. This
+information is crucial in terms of gaining reproducibility.
+
 * Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens
 
 økte interesse bare et blaff?
@@ -207,8 +391,13 @@ tilfredsstillende løsning av problemet
 (\protect\hyperlink{ref-peng2011}{Peng, 2011}) lkdflflkejflelfjlkejflkje
 
 \hypertarget{litteraturliste}{%
-\section*{Litteraturliste}\label{litteraturliste}}
-\addcontentsline{toc}{section}{Litteraturliste}
+\section{Litteraturliste}\label{litteraturliste}}
+
+\hypertarget{display-of-git-commits-and-three-branches}{%
+\subsubsection{Display of Git commits and three
+branches}\label{display-of-git-commits-and-three-branches}}
+
+\includegraphics{images/paste-7A7BFE4C.png}
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
