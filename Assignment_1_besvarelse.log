@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.3)  15 SEP 2021 11:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.3)  17 SEP 2021 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -519,14 +519,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 146
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 185.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 185.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 185.
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--200
+Underfull \hbox (badness 10000) in paragraph at lines 190--199
 
  []
 
@@ -535,64 +528,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--200
 {/Users/olebakkevik/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
 p}]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-10.
+09.
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 252.
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-[][]$\T1/lmr/m/n/12 https : / / www . repository . cam . ac . uk / bitstream / 
-handle / 1810 / 288025 / Heesen % 202018 %
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\T1/lmr/m/n/12 20Why % 20the % 20Reward % 20Structure % 20of % 20Science % 20Ma
-kes % 20Reproducibility %
- []
-
+) [2]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-16.
+13.
 (/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [3]
-Overfull \hbox (61.29524pt too wide) in paragraph at lines 361--361
+)
+Overfull \hbox (61.29524pt too wide) in paragraph at lines 358--358
 []\T1/lmtt/m/n/12 ## BLAS:   /Library/Frameworks/R.framework/Versions/4.1/Resou
 rces/lib/libRblas.0.dylib[] 
  []
 
-
-Overfull \hbox (61.29524pt too wide) in paragraph at lines 361--361
+[3]
+Overfull \hbox (61.29524pt too wide) in paragraph at lines 358--358
 []\T1/lmtt/m/n/12 ## LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resou
 rces/lib/libRlapack.dylib[] 
  []
 
+[4]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 398.
+(hyperref)                than one, level fixed on input line 405.
 
-<images/paste-7A7BFE4C.png, id=89, 912.40875pt x 111.41624pt>
+<images/paste-7A7BFE4C.png, id=109, 912.40875pt x 111.41624pt>
 File: images/paste-7A7BFE4C.png Graphic file (type png)
 <use images/paste-7A7BFE4C.png>
-Package pdftex.def Info: images/paste-7A7BFE4C.png  used on input line 400.
+Package pdftex.def Info: images/paste-7A7BFE4C.png  used on input line 407.
 (pdftex.def)             Requested size: 469.74957pt x 57.36215pt.
-[4] [5 <./images/paste-7A7BFE4C.png>] (./Assignment_1_besvarelse.aux)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 414.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 414.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 414.
+
+Underfull \hbox (badness 4229) in paragraph at lines 427--430
+[][]\T1/lmr/m/it/12 Reproducibility Guide\T1/lmr/m/n/12 . (u.å.). []$https : / 
+/ ropensci . github . io / reproducibility -[] guide / sections /
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 437--441
+[][]\T1/lmr/m/it/12 Why is re-pro-duc-ing phar-ma-ceu-ti-cal med-i-cal re-searc
+h so hard? \T1/lmr/m/n/12 (u.å.). []$https : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--441
+\T1/lmr/m/n/12 pharmaceutical -[] technology . com / features / why -[] is -[] 
+it -[] so -[] hard -[] to -[] reproduce -[] medical -[]
+ []
+
+[5 <./images/paste-7A7BFE4C.png>] (./Assignment_1_besvarelse.aux)
 Package rerunfilecheck Info: File `Assignment_1_besvarelse.out' has not changed
 .
-(rerunfilecheck)             Checksum: D40828D78D35ACAE2BE055330E6AD4C0;1936.
+(rerunfilecheck)             Checksum: BE2C5929F17946F3291DF197F4262F9C;2022.
  ) 
 Here is how much of TeX's memory you used:
- 11638 strings out of 480559
- 174529 string characters out of 5902368
- 495272 words of memory out of 5000000
- 29032 multiletter control sequences out of 15000+600000
+ 11649 strings out of 480559
+ 174663 string characters out of 5902368
+ 494268 words of memory out of 5000000
+ 29038 multiletter control sequences out of 15000+600000
  454014 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,6n,66p,553b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,66p,553b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{
 /Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</U
 sers/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></
@@ -600,10 +602,10 @@ Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></
 Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></
 Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><
 /Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Assignment_1_besvarelse.pdf (5 pages, 174161 bytes).
+Output written on Assignment_1_besvarelse.pdf (5 pages, 176669 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,7 +3,7 @@ title: "«R Notebooks» og reproduserbarhet"
 author: "Assignment 1 - MSB 105 - Ole Alexander Bakkevik & Sindre Espedal"
 affiliation: HVL
 email: 579735@stud.hvl.no & 170691@stud.hvl.no
-bibliography : reproducibility.bib
+bibliography : [references.bib, reproducibility.bib]
 csl: apa-no-ampersand.csl
 fontsize: 12pt
 output:
@@ -19,7 +19,7 @@ lang: nb-NO
 
 ## disposisjon (dere trenger ikke dekke alt listet her)
 
-### Introduction 
+### Introduction
 
 There is mainly two basic reasons to be concerned about making research reproducible.
 
@@ -27,11 +27,9 @@ There is mainly two basic reasons to be concerned about making research reproduc
 
 Adopting a reproducible workflow means providing our audience with the code and data that demonstrates the decisions we made as we generated our results. This makes it easier for others to satisfy themselves that our results are reliable (or not, since reproducibility is no guarantee of correctness).
 
-*The second* reason to aspire to reproducibility is to enable others to make use of our methods and results. Equipped with only our published article, our colleagues might struggle to reconstruct our method in enough detail to apply it to their own data. Adopting a reproducible workflow means publishing our code and data in order to allow our colleagues to extend our approach to new applications with a minimum of effort. This has the potential to save a great deal of time in transmitting knowledge to future researchers. **(copy pastet=skal omskrives)**
+*The second* reason to aspire to reproducibility is to enable others to make use of methods and results. Equipped with only our published article, our colleagues might struggle to reconstruct our method in enough detail to apply it to their own data. Adopting a reproducible workflow means publishing our code and data in order to allow scientists to extend our approach to new applications with a minimum of effort. This has the potential to save a great deal of time in transmitting knowledge to future researchers. @Git-reproducabilty
 
 In this paper will discuss the topics mentioned above in an light,yet hopefully understandable manner.
-
-<https://ropensci.github.io/reproducibility-guide/sections/introduction/>
 
 ### Reproducibility, R notebooks
 
@@ -46,7 +44,7 @@ As a standard , it creates a tedious and non-effective approach to replication. 
 
 -   **Vil dagens løsning med arkiv av data og event. programkode hos**
 
-# **tidsskriftene kunne løse problemet?**
+**tidsskriftene kunne løse problemet?**
 
 \* Mulig løsning (teoretisk plan):
 
@@ -70,30 +68,22 @@ As a standard , it creates a tedious and non-effective approach to replication. 
 
 Over the past several years, a series of publications and policy statements have generated increasing awareness in the scientific community of the scale and implications of the problem of irreproducible data---or at least lack of robust results---particularly in the realm of basic and translational research.
 
-Recent studies have shown that the key findings in 50% or more of published reports in certain fields cannot be reproduced. As the public, government, and private funders of research comprehend the extent of the problem, trust in the scientific enterprise erodes, and confidence in the ability of the scientific community to address this problem wanes. In addition, there is considerable potential for reputational damage to scientists, universities, and entire fields (for example, cancer biology, genomics, and psychology).
+Recent studies have shown that the key findings in 50% or more of published reports in certain fields cannot be reproduced. As the public, government, and private funders of research comprehend the extent of the problem, trust in the scientific enterprise erodes, and confidence in the ability of the scientific community to address this problem wanes. In addition, there is considerable potential for reputational damage to scientists, universities, and entire fields (for example, cancer biology, genomics, and psychology). @Science.org
 
-<https://www.science.org/doi/full/10.1126/scitranslmed.aaf5003>
-
-One possible cause of irreproducible-data is stated by Hessen as"*Scientists are incentivized to produce more results at the expense of spending more time on the reproducibility of any
-given result*". Hessen furthermore list three possible solutions:
+One possible cause of irreproducible-data is stated by Hessen as"*Scientists are incentivized to produce more results at the expense of spending more time on the reproducibility of any given result*". Hessen furthermore list three possible solutions:
 
 -   One solution is to eliminate imperfections in the peer review system.\
     *(Without those imperfections credit incentives are perfectly aligned with the social optimum in Hessen\`s model)*
 
--   Another solution focuses on the amount of credit given for irreproducible results. \
-    *(If the credit given to irreproducible results matched the social value of those results more closely, the gap between the credit-maximizing optimum
-    and the social optimum would be reduced)*
+-   Another solution focuses on the amount of credit given for irreproducible results.\
+    *(If the credit given to irreproducible results matched the social value of those results more closely, the gap between the credit-maximizing optimum and the social optimum would be reduced)*
 
--   A third solution aims to compensate for the misalignment. \
-    (l*imiting the number of papers scientists may publish per unit time)*
-
-<https://www.repository.cam.ac.uk/bitstream/handle/1810/288025/Heesen%202018%20Why%20the%20Reward%20Structure%20of%20Science%20Makes%20Reproducibility%20Problems%20Inevitable.pdf?sequence=3>
+-   A third solution aims to compensate for the misalignment.\
+    (l*imiting the number of papers scientists may publish per unit time) @schulz2016*
 
 ### Incentivizing gone wrong
 
-A good example of fraudulent science is Andrew Wakefield and his study on the link between autism and the MMR vaccine published in the Lancet. Wakefield was paid by a Legal Aid Board of parents of children with autism to conduct a pilot study of virological investigation in autistic children, some of whom were included in the Lancet publication. Additionally, Wakefield most likely manipulated the data, thus representing in false results. Since then Wakefield has become the "*godfather*" for the anti-vaccine movement, a movement whom have grown exponentially during the covid-19 pandemic.
-
-<https://onlinelibrary.wiley.com/doi/full/10.1111/jnc.13844>
+A good example of fraudulent science is Andrew Wakefield and his study on the link between autism and the MMR vaccine published in the Lancet. Wakefield was paid by a Legal Aid Board of parents of children with autism to conduct a pilot study of virological investigation in autistic children, some of whom were included in the Lancet publication. Additionally, Wakefield most likely manipulated the data, thus representing in false results. Since then Wakefield has become the "*godfather*" for the anti-vaccine movement, a movement whom have grown exponentially during the covid-19 pandemic. @schulz2016
 
 ### Example list 2 level
 
@@ -112,24 +102,22 @@ sessionInfo()
 
 The session info function provides the reader information regarding which operating system, packages and data sets that have been used. This information is crucial in terms of gaining reproducibility.
 
-\* Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens
+### Reproducibility across sectors
 
-økte interesse bare et blaff?
+Other areas where application of reproducibility would prove beneficiary is e.g. the pharmaceutical industry. Present day studies show that replicating present day clinical-research data is demanding. Which often leads to drugs to prolong their release to actual patient trials. One human factor could be the fear of being "discredited" among peers, which lead to an bias among researchers. Ultimately causing studies not to be reproduced. @Pharm-tech
 
-\* Kan reproduserbarhet ha relevans i sektorer utenfor akademia?
+### **Conclusion**
 
-\- Konklusjon
-
-\- Litteraturliste
-
-jhekfhkewhf @allaire2020
+Providing studies that are reproducible is vital in terms of quality assurance , cost- effective and deterring fraudulent scientists is crucial.
 
 For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gir @mccullough2008 en god illustrasjon av problemets omfang innen fagområdet økonomi. @mccullough2008 diskuterer også om tidsskriftenes arkiver av datasett og programkode er en tilfredsstillende løsning av problemet
 
-[@peng2011] lkdflflkejflelfjlkejflkje
-
 # Litteraturliste
 
-### Display of Git commits and three branches 
+\<div id="refs"\>\</div\>
+
+\# Appendix
+
+### Display of Git commits and three branches
 
 ![](images/paste-7A7BFE4C.png)
