@@ -53,11 +53,13 @@ replikering som et ideal for å bli kjent, men ikke å bli praktisert
 [@mccullough2008].
 
 ***Mulig løsning***
-
--   Problemets omfang - McCullough
-
 -   Mulig løsning - Compenduim, Dynamic document og/eller code-/text
     chunk?
+[@gentleman2007] påpeker at kompedium er et viktig verktøy for å integrere koder og data osv. Det er fordi når slike verktøy samles og settes sammen så skal det kunne distribueres og oppdateres, gitt at kompendiumet er av riktig klalitet, så skal muligheten for reproduksjon være enkelt.
+
+
+
+
 
 jhekfhkewhf @allaire2020
 
