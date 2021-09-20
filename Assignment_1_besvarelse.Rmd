@@ -25,7 +25,6 @@ slutten?
 ## Litteraturgjennomgang
 
 **Replikerbarhet**
-
 Det å kunne replikere forskningsresultater av andre forskere er en
 viktig del av metodikken i vitenskap. Tidligere har det vært lite
 testing av replikerbarhet. Årsaker til dette er at det ikke fremmes å
@@ -52,21 +51,26 @@ tilbys til å engasjere seg i replikering fordi økonomisk yrke vurderer
 replikering som et ideal for å bli kjent, men ikke å bli praktisert
 [@mccullough2008].
 
-***Mulig løsning***
--   Mulig løsning - Compenduim, Dynamic document og/eller code-/text
-    chunk?
-[@gentleman2007] påpeker at kompedium er et viktig verktøy for å integrere koder og data osv. Det er fordi når slike verktøy samles og settes sammen så skal det kunne distribueres og oppdateres, gitt at kompendiumet er av riktig klalitet, så skal muligheten for reproduksjon være enkelt.
+##mulig løsning
+**kompendium og "Code Chunks"**
+[@gentleman2007] påpeker at kompedium er et viktig verktøy for å integrere koder og data osv. Det er fordi når slike verktøy samles og settes sammen så skal det kunne distribueres og oppdateres, gitt at kompendiumet er av riktig kvalitet, så vil muligheten for reproduksjon være enkel.
+
+En annen mulig løsning er "Code Chunks" eller "Text Chunks". Code- og tekst chunks er et verktøy som brukes til å vise data og kode til illustrasjoner. Tekst chunks brukes til å beskrive og tolke resultater og koder. Dynamisk dokument vil derfor være et optimalt kompendium siden alle dataene og komponentene vil være tilgjengelige for reproduserbarhet [@gentleman2007].
+
+##Analyse
+
+
+
+##Konklusjon
 
 
 
 
 
-jhekfhkewhf @allaire2020
 
-For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde.
-Videre gir @mccullough2008 en god illustrasjon av problemets omfang
-innen fagområdet økonomi. @mccullough2008 diskuterer også om
-tidsskriftenes arkiver av datasett og programkode er en
-tilfredsstillende løsning av problemet
+
+
+
+
 
 # Litteraturliste
