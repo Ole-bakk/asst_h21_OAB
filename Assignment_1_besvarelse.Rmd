@@ -62,7 +62,9 @@ En annen mulig løsning er "Code Chunks" eller "Text Chunks". Code- og tekst chu
 
 
 ##Konklusjon
-
+Ved å benytte seg av dynamisk dokument i form av koder, data, forklaringer osv i form av code chunks og tekst chunks så er det gode muligheter for både repliksjon og reproduserbarhet av forskning, og også videre forskning på tidligere studier. 
+- Motivere forskere til å dele å gjøre arbeidet sitt tilgjengelig
+- Ulempe? kanskje mange forskjellige pakker (vanskelig å ha styr på alt), hvis det skal være noe kritikk på Rstudio da.
 
 
 
