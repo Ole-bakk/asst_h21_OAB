@@ -17,6 +17,7 @@ link-citations: yes
 lang: nb-NO
 ---
 
+<<<<<<< HEAD
 ## disposisjon (dere trenger ikke dekke alt listet her)
 
 ### Introduction
@@ -111,11 +112,56 @@ Other areas where application of reproducibility would prove beneficiary is e.g.
 Providing studies that are reproducible is vital in terms of quality assurance , cost- effective and deterring fraudulent scientists is crucial.
 
 For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gir @mccullough2008 en god illustrasjon av problemets omfang innen fagområdet økonomi. @mccullough2008 diskuterer også om tidsskriftenes arkiver av datasett og programkode er en tilfredsstillende løsning av problemet
+=======
+## Introduction
+
+## Litterature
+
+**Replicability**
+Being able to replicate research results by other researchers is one
+important part of the methodology in science. In the past, there has been little
+testing of replicability. Reasons for this are that it is not promoted to
+replicate another researcher's work. Criticism can also arise about
+lack of creativity and imagination. A critical question is also asked
+to the integrity of the researcher as one can be interpreted as critical to
+the findings or that one does not trust the researcher. Such arguments
+makes it less attractive to conduct replication studies.
+
+Dewald and co tried to replicate a number of datasets and they found that
+accidental errors in empirical articles are rather common than unusual
+[@dewald1986]. Although it is quite common for errors to occur in empirical
+economic research, it is quite frustrating and difficult to replicate
+and build on the research when there are many errors in the dataset and that
+also does not appear to significantly affect the conclusion of the authors.
+
+In recent times, technology has made it easier, cheaper and more effecient to make and maintain journal archives. Still, @mccullough2008 has in the article
+"Do Economics Journal Archives Promote Replicable Research?" shown findings
+that the potential offer is reduced when editors fail to
+enforce and authors do not adhere to the guidelines of the journal archives.
+It is noted that few researchers use the opportunity as
+offered to engage in replication because economic profession is considering
+replication as an ideal to be known but not to be practiced
+[@mccullough2008].
+
+##Possible soulutions
+**Compendium and "Code Chunks"**
+[@gentleman2007] points out that compendium is an important tool for integrating codes and data etc. This is because when such tools are collected and assembled it must be possible to distribute and update, given that the compendium is of the right quality, so will the possibility of reproduction be simple.
+
+Another possible solution is "Code Chunks" or "Text Chunks". Code and text chunks are a tool used to display data and code for illustrations. Text chunks are used to describe and interpret results and codes. Dynamic document will therefore be an optimal compendium since all the data and components will be available for reproducibility [@gentleman2007].
+
+##Analysis
+
+##conclusion
+By using dynamic documents in the form of codes, data, explanations, etc. in the form of code chunks and text chunks, there are good opportunities for both replication and reproducibility of research, and also further research on previous studies.
+- Motivate researchers to share to make their work available
+- Disadvantage? maybe too many different packages (difficult to keep track)
+>>>>>>> First_branch
 
 \newpage
 
 # Litteraturliste
 
+<<<<<<< HEAD
 \<div id="refs"\>\</div\>
 
 \# Appendix
@@ -123,3 +169,5 @@ For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gi
 ### Display of Git commits and three branches
 
 ![](images/paste-7A7BFE4C.png)
+=======
+>>>>>>> First_branch
