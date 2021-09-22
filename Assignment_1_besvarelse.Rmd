@@ -7,9 +7,9 @@ bibliography : [references.bib, reproducibility.bib]
 csl: apa-no-ampersand.csl
 fontsize: 12pt
 output:
-  word_document: default
   pdf_document:
     keep_tex: yes
+  word_document: default
   html_document:
     df_print: paged
   html_notebook: default  
@@ -155,7 +155,7 @@ Another possible solution is "Code Chunks" or "Text Chunks". Code and text chunk
 By using dynamic documents in the form of codes, data, explanations, etc. in the form of code chunks and text chunks, there are good opportunities for both replication and reproducibility of research, and also further research on previous studies.
 - Motivate researchers to share to make their work available
 - Disadvantage? maybe too many different packages (difficult to keep track)
->>>>>>> First_branch
+
 
 \newpage
 
@@ -164,10 +164,12 @@ By using dynamic documents in the form of codes, data, explanations, etc. in the
 <<<<<<< HEAD
 \<div id="refs"\>\</div\>
 
+
+
 \# Appendix
 
 ### Display of Git commits and three branches
 
 ![](images/paste-7A7BFE4C.png)
-=======
->>>>>>> First_branch
+
+
