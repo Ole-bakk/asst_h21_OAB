@@ -112,6 +112,8 @@ Providing studies that are reproducible is vital in terms of quality assurance ,
 
 For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gir @mccullough2008 en god illustrasjon av problemets omfang innen fagområdet økonomi. @mccullough2008 diskuterer også om tidsskriftenes arkiver av datasett og programkode er en tilfredsstillende løsning av problemet
 
+\newpage
+
 # Litteraturliste
 
 \<div id="refs"\>\</div\>
