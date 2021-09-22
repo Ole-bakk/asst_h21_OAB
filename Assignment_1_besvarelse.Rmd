@@ -7,24 +7,17 @@ bibliography : [references.bib, reproducibility.bib]
 csl: apa-no-ampersand.csl
 fontsize: 12pt
 output:
-<<<<<<< HEAD
    pdf_document:
+         keep_tex: yes
   word_document: default
   html_document:
     df_print: paged
-  word_document: default
-=======
->>>>>>> 0031d176e34b9753b427cb621e55b63b4fb5734d
-  pdf_document:
-    keep_tex: yes
-  html_document:
-    df_print: paged
-  word_document: default
-  html_notebook: default  
 link-citations: yes
 lang: nb-NO
 ---
+
 ### Introduction
+
 There is mainly two basic reasons to be concerned about making research reproducible.
 
 *The first* is to show evidence of the correctness of your results. Descriptions contained in scholarly publications are rarely sufficient to convince sceptical readers of the reliability of our work. In simpler times, scholarly publications showed the reader most of the work involved in getting the result. The reader could make an informed choice about the credibility of the science. Now, the reader may feel they are being asked to blindly trust in all the details that were not described in the original journal article.
@@ -42,7 +35,7 @@ In this paper will discuss the topics mentioned above in an light,yet hopefully 
 Roger D. Peng states in his article "Reproducible Research in Computational Science, 2011" that "The standard of reproducibility calls for the data and the computer code used to analyze the data be made available to others" @peng2011.\
 As a standard , it creates a tedious and non-effective approach to replication. A far more beneficial process is to independently inspect utilized data variables. R-notebook and other reproducible systems would serve as an crucial component in verifying scientific results.\
 
-**Replicability**
+### Replicability
 
 Being able to replicate research results by other researchers is one
 important part of the methodology in science. In the past, there has been little
@@ -71,7 +64,7 @@ replication as an ideal to be known but not to be practiced
 
 ###Possible soulutions
 
-**Compendium and "Code Chunks"**
+#### Compendium and "Code Chunks"
 
 [@gentleman2007] points out that compendium is an important tool for integrating codes and data etc. This is because when such tools are collected and assembled it must be possible to distribute and update, given that the compendium is of the right quality, so will the possibility of reproduction be simple.
 
@@ -119,17 +112,15 @@ The session info function provides the reader information regarding which operat
 
 Other areas where application of reproducibility would prove beneficiary is e.g. the pharmaceutical industry. Present day studies show that replicating present day clinical-research data is demanding. Which often leads to drugs to prolong their release to actual patient trials. One human factor could be the fear of being "discredited" among peers, which lead to an bias among researchers. Ultimately causing studies not to be reproduced. @Pharm-tech
 
-### **Conclusion**
+### Conclusion
 
 Providing studies that are reproducible is vital in terms of quality assurance , cost- effective and deterring fraudulent scientists is crucial.
 
 By using dynamic documents in the form of codes, data, explanations, etc. in the form of code chunks and text chunks, there are good opportunities for both replication and reproducibility of research, and also further research on previous studies.
-<<<<<<< HEAD
+
 - Motivate researchers to share to make their work available
 - Disadvantage? maybe too many different packages (difficult to keep track)
 
-=======
->>>>>>> 71311dd6179ccbffd1d89dd79874e24a4d441f9e
 
 \newpage
 
@@ -137,18 +128,10 @@ By using dynamic documents in the form of codes, data, explanations, etc. in the
 
 \<div id="refs"\>\</div\>
 
-<<<<<<< HEAD
-
 
 \# Appendix
 
-=======
->>>>>>> 71311dd6179ccbffd1d89dd79874e24a4d441f9e
 ### Display of Git commits and three branches
 
 ![](images/paste-7A7BFE4C.png)
-<<<<<<< HEAD
 
-
-=======
->>>>>>> e747e8120371fffe26be332ad74ab784a5d51b6e
