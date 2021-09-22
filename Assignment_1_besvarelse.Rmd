@@ -7,15 +7,19 @@ bibliography : [references.bib, reproducibility.bib]
 csl: apa-no-ampersand.csl
 fontsize: 12pt
 output:
+<<<<<<< HEAD
    pdf_document:
   word_document: default
   html_document:
     df_print: paged
   word_document: default
+=======
+>>>>>>> 0031d176e34b9753b427cb621e55b63b4fb5734d
   pdf_document:
     keep_tex: yes
   html_document:
     df_print: paged
+  word_document: default
   html_notebook: default  
 link-citations: yes
 lang: nb-NO
