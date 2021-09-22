@@ -7,11 +7,17 @@ bibliography : [references.bib, reproducibility.bib]
 csl: apa-no-ampersand.csl
 fontsize: 12pt
 output:
+<<<<<<< HEAD
    pdf_document:
   word_document: default
   html_document:
     df_print: paged
+=======
+  pdf_document:
+>>>>>>> e747e8120371fffe26be332ad74ab784a5d51b6e
     keep_tex: yes
+  html_document:
+    df_print: paged
   word_document: default
   html_notebook: default  
 link-citations: yes
@@ -140,5 +146,8 @@ By using dynamic documents in the form of codes, data, explanations, etc. in the
 ### Display of Git commits and three branches
 
 ![](images/paste-7A7BFE4C.png)
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e747e8120371fffe26be332ad74ab784a5d51b6e
