@@ -7,21 +7,16 @@ bibliography : [references.bib, reproducibility.bib]
 csl: apa-no-ampersand.csl
 fontsize: 12pt
 output:
-  word_document: default
-  pdf_document:
-    keep_tex: yes
   html_document:
     df_print: paged
+  pdf_document:
+    keep_tex: yes
+  word_document: default
   html_notebook: default  
 link-citations: yes
 lang: nb-NO
 ---
-
-<<<<<<< HEAD
-## disposisjon (dere trenger ikke dekke alt listet her)
-
 ### Introduction
-
 There is mainly two basic reasons to be concerned about making research reproducible.
 
 *The first* is to show evidence of the correctness of your results. Descriptions contained in scholarly publications are rarely sufficient to convince sceptical readers of the reliability of our work. In simpler times, scholarly publications showed the reader most of the work involved in getting the result. The reader could make an informed choice about the credibility of the science. Now, the reader may feel they are being asked to blindly trust in all the details that were not described in the original journal article.
@@ -32,38 +27,47 @@ Adopting a reproducible workflow means providing our audience with the code and 
 
 In this paper will discuss the topics mentioned above in an light,yet hopefully understandable manner.
 
+## Litterature
+
 ### Reproducibility, R notebooks
 
 Roger D. Peng states in his article "Reproducible Research in Computational Science, 2011" that "The standard of reproducibility calls for the data and the computer code used to analyze the data be made available to others" @peng2011.\
 As a standard , it creates a tedious and non-effective approach to replication. A far more beneficial process is to independently inspect utilized data variables. R-notebook and other reproducible systems would serve as an crucial component in verifying scientific results.\
 
-**- Litteraturgjennomgang**
+**Replicability**
 
-**\* Replikerbarhet/reproduserbarhet**
+Being able to replicate research results by other researchers is one
+important part of the methodology in science. In the past, there has been little
+testing of replicability. Reasons for this are that it is not promoted to
+replicate another researcher's work. Criticism can also arise about
+lack of creativity and imagination. A critical question is also asked
+to the integrity of the researcher as one can be interpreted as critical to
+the findings or that one does not trust the researcher. Such arguments
+makes it less attractive to conduct replication studies.
 
-**\* Problemets omfang**
+Dewald and co tried to replicate a number of datasets and they found that
+accidental errors in empirical articles are rather common than unusual
+[@dewald1986]. Although it is quite common for errors to occur in empirical
+economic research, it is quite frustrating and difficult to replicate
+and build on the research when there are many errors in the dataset and that
+also does not appear to significantly affect the conclusion of the authors.
 
--   **Vil dagens løsning med arkiv av data og event. programkode hos**
+In recent times, technology has made it easier, cheaper and more effecient to make and maintain journal archives. Still, @mccullough2008 has in the article
+"Do Economics Journal Archives Promote Replicable Research?" shown findings
+that the potential offer is reduced when editors fail to
+enforce and authors do not adhere to the guidelines of the journal archives.
+It is noted that few researchers use the opportunity as
+offered to engage in replication because economic profession is considering
+replication as an ideal to be known but not to be practiced
+[@mccullough2008].
 
-**tidsskriftene kunne løse problemet?**
+###Possible soulutions
 
-\* Mulig løsning (teoretisk plan):
+**Compendium and "Code Chunks"**
 
--   «Compendium», «Dynamic document», «code chunck» og «text chunk»
+[@gentleman2007] points out that compendium is an important tool for integrating codes and data etc. This is because when such tools are collected and assembled it must be possible to distribute and update, given that the compendium is of the right quality, so will the possibility of reproduction be simple.
 
-\* Mulig løsning:
-
--   R Notebooks
-
-\- Analyse
-
-\* Løser R notebooks problemet med reproduserbarhet
-
--   helt eller bare delvis
-
-\* Eksempler på «code chunks» («R Code Block») og «text chunck» i R notebook
-
-\* Har forskerne incentiver til å være «reproduserbare», eller må de tvinges?
+Another possible solution is "Code Chunks" or "Text Chunks". Code and text chunks are a tool used to display data and code for illustrations. Text chunks are used to describe and interpret results and codes. Dynamic document will therefore be an optimal compendium since all the data and components will be available for reproducibility [@gentleman2007].
 
 ### Incentivizing reproducibility
 
@@ -111,60 +115,13 @@ Other areas where application of reproducibility would prove beneficiary is e.g.
 
 Providing studies that are reproducible is vital in terms of quality assurance , cost- effective and deterring fraudulent scientists is crucial.
 
-For generelle tanker rundt reproduserbarhet er @peng2011 en god kilde. Videre gir @mccullough2008 en god illustrasjon av problemets omfang innen fagområdet økonomi. @mccullough2008 diskuterer også om tidsskriftenes arkiver av datasett og programkode er en tilfredsstillende løsning av problemet
-=======
-## Introduction
-
-## Litterature
-
-**Replicability**
-Being able to replicate research results by other researchers is one
-important part of the methodology in science. In the past, there has been little
-testing of replicability. Reasons for this are that it is not promoted to
-replicate another researcher's work. Criticism can also arise about
-lack of creativity and imagination. A critical question is also asked
-to the integrity of the researcher as one can be interpreted as critical to
-the findings or that one does not trust the researcher. Such arguments
-makes it less attractive to conduct replication studies.
-
-Dewald and co tried to replicate a number of datasets and they found that
-accidental errors in empirical articles are rather common than unusual
-[@dewald1986]. Although it is quite common for errors to occur in empirical
-economic research, it is quite frustrating and difficult to replicate
-and build on the research when there are many errors in the dataset and that
-also does not appear to significantly affect the conclusion of the authors.
-
-In recent times, technology has made it easier, cheaper and more effecient to make and maintain journal archives. Still, @mccullough2008 has in the article
-"Do Economics Journal Archives Promote Replicable Research?" shown findings
-that the potential offer is reduced when editors fail to
-enforce and authors do not adhere to the guidelines of the journal archives.
-It is noted that few researchers use the opportunity as
-offered to engage in replication because economic profession is considering
-replication as an ideal to be known but not to be practiced
-[@mccullough2008].
-
-##Possible soulutions
-**Compendium and "Code Chunks"**
-[@gentleman2007] points out that compendium is an important tool for integrating codes and data etc. This is because when such tools are collected and assembled it must be possible to distribute and update, given that the compendium is of the right quality, so will the possibility of reproduction be simple.
-
-Another possible solution is "Code Chunks" or "Text Chunks". Code and text chunks are a tool used to display data and code for illustrations. Text chunks are used to describe and interpret results and codes. Dynamic document will therefore be an optimal compendium since all the data and components will be available for reproducibility [@gentleman2007].
-
-##Analysis
-
-##conclusion
 By using dynamic documents in the form of codes, data, explanations, etc. in the form of code chunks and text chunks, there are good opportunities for both replication and reproducibility of research, and also further research on previous studies.
-- Motivate researchers to share to make their work available
-- Disadvantage? maybe too many different packages (difficult to keep track)
->>>>>>> First_branch
 
 \newpage
 
 # Litteraturliste
 
-<<<<<<< HEAD
 \<div id="refs"\>\</div\>
-
-\# Appendix
 
 ### Display of Git commits and three branches
 
