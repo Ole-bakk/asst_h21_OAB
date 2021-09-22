@@ -14,8 +14,8 @@ output:
   word_document: default
   html_notebook: default  
 link-citations: yes
-lang: nb-NO
 ---
+
 ### Introduction
 There is mainly two basic reasons to be concerned about making research reproducible.
 
