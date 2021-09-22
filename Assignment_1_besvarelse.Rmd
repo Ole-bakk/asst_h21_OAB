@@ -126,5 +126,3 @@ By using dynamic documents in the form of codes, data, explanations, etc. in the
 ### Display of Git commits and three branches
 
 ![](images/paste-7A7BFE4C.png)
-=======
->>>>>>> First_branch
