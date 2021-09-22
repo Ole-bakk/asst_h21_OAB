@@ -1,4 +1,20 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.3)  22 SEP 2021 10:13
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.3)  22 SEP 2021 09:40
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.3)  22 SEP 2021 09:51
+>>>>>>> e747e8120371fffe26be332ad74ab784a5d51b6e
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.3)  22 SEP 2021 09:56
+>>>>>>> 97b66d0fd7e18021e7052e1fe83e2069e592daf8
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.3)  22 SEP 2021 10:03
+>>>>>>> 0031d176e34b9753b427cb621e55b63b4fb5734d
+>>>>>>> af533a998ae7e19a8431f6ad9a78d6150c526924
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -556,26 +572,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--198
 {/Users/sindreespedal/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.
 map}] [2]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+<<<<<<< HEAD
+08.
+(/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+=======
 76.
 (/Users/sindreespedal/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+>>>>>>> e747e8120371fffe26be332ad74ab784a5d51b6e
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+<<<<<<< HEAD
+12.
+(/Users/olebakkevik/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (61.29524pt too wide) in paragraph at lines 357--357
+=======
 13.
 (/Users/sindreespedal/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [3]
 Overfull \hbox (61.29524pt too wide) in paragraph at lines 358--358
+>>>>>>> e747e8120371fffe26be332ad74ab784a5d51b6e
 []\T1/lmtt/m/n/12 ## BLAS:   /Library/Frameworks/R.framework/Versions/4.1/Resou
 rces/lib/libRblas.0.dylib[] 
  []
 
+<<<<<<< HEAD
+[3]
+Overfull \hbox (61.29524pt too wide) in paragraph at lines 357--357
+=======
 
 Overfull \hbox (61.29524pt too wide) in paragraph at lines 358--358
+>>>>>>> e747e8120371fffe26be332ad74ab784a5d51b6e
 []\T1/lmtt/m/n/12 ## LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resou
 rces/lib/libRlapack.dylib[] 
  []
 
+<<<<<<< HEAD
+[4] [5] [6]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 468.
+
+<images/paste-7A7BFE4C.png, id=133, 912.40875pt x 111.41624pt>
+File: images/paste-7A7BFE4C.png Graphic file (type png)
+<use images/paste-7A7BFE4C.png>
+Package pdftex.def Info: images/paste-7A7BFE4C.png  used on input line 470.
+(pdftex.def)             Requested size: 469.74957pt x 57.36215pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 477.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 477.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 477.
+
+Underfull \hbox (badness 4229) in paragraph at lines 501--504
+=======
 
 Overfull \hbox (18.07022pt too wide) in paragraph at lines 358--358
 []\T1/lmtt/m/n/12 ##  [1] compiler_4.1.1    magrittr_2.0.1    tools_4.1.1      
@@ -600,22 +654,59 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 408.
 
 Underfull \hbox (badness 4229) in paragraph at lines 432--435
+>>>>>>> e747e8120371fffe26be332ad74ab784a5d51b6e
 [][]\T1/lmr/m/it/12 Reproducibility Guide\T1/lmr/m/n/12 . (u.å.). []$https : / 
 / ropensci . github . io / reproducibility -[] guide / sections /
  []
 
 
+<<<<<<< HEAD
+Underfull \hbox (badness 2020) in paragraph at lines 511--515
+=======
 Underfull \hbox (badness 2020) in paragraph at lines 442--446
+>>>>>>> e747e8120371fffe26be332ad74ab784a5d51b6e
 [][]\T1/lmr/m/it/12 Why is re-pro-duc-ing phar-ma-ceu-ti-cal med-i-cal re-searc
 h so hard? \T1/lmr/m/n/12 (u.å.). []$https : / / www .
  []
 
 
+<<<<<<< HEAD
+Underfull \hbox (badness 10000) in paragraph at lines 511--515
+=======
 Underfull \hbox (badness 10000) in paragraph at lines 442--446
+>>>>>>> e747e8120371fffe26be332ad74ab784a5d51b6e
 \T1/lmr/m/n/12 pharmaceutical -[] technology . com / features / why -[] is -[] 
 it -[] so -[] hard -[] to -[] reproduce -[] medical -[]
  []
 
+<<<<<<< HEAD
+[7 <./images/paste-7A7BFE4C.png>] (./Assignment_1_besvarelse.aux)
+Package rerunfilecheck Info: File `Assignment_1_besvarelse.out' has not changed
+.
+(rerunfilecheck)             Checksum: 6F111ABF041FDB8E5938B85B5E54572C;3614.
+ ) 
+Here is how much of TeX's memory you used:
+ 11661 strings out of 480559
+ 175314 string characters out of 5902368
+ 497503 words of memory out of 5000000
+ 29042 multiletter control sequences out of 15000+600000
+ 454014 words of font info for 69 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 60i,6n,66p,1835b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{
+/Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</U
+sers/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></
+Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></
+Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></
+Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><
+/Users/olebakkevik/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Assignment_1_besvarelse.pdf (7 pages, 182534 bytes).
+PDF statistics:
+ 197 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
 [6 <./images/paste-7A7BFE4C.png>] (./Assignment_1_besvarelse.aux)
 Package rerunfilecheck Info: File `Assignment_1_besvarelse.out' has not changed
 .
@@ -643,4 +734,5 @@ PDF statistics:
  151 compressed objects within 2 object streams
  38 named destinations out of 1000 (max. 500000)
  94 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> e747e8120371fffe26be332ad74ab784a5d51b6e
 
