@@ -17,51 +17,48 @@ link-citations: yes
 lang: nb-NO
 ---
 
-## Introduksjon
+## Introduction
 
-Her kan kanskje vi kanskje skrive noe i lag, kanskje lettest å skrive i
-slutten?
+## Litterature
 
-## Litteraturgjennomgang
+**Replicability**
+Being able to replicate research results by other researchers is one
+important part of the methodology in science. In the past, there has been little
+testing of replicability. Reasons for this are that it is not promoted to
+replicate another researcher's work. Criticism can also arise about
+lack of creativity and imagination. A critical question is also asked
+to the integrity of the researcher as one can be interpreted as critical to
+the findings or that one does not trust the researcher. Such arguments
+makes it less attractive to conduct replication studies.
 
-**Replikerbarhet**
-Det å kunne replikere forskningsresultater av andre forskere er en
-viktig del av metodikken i vitenskap. Tidligere har det vært lite
-testing av replikerbarhet. Årsaker til dette er at det ikke fremmes å
-replikere en annen forskers arbeid. Det kan også oppstå kritikk om
-mangel på kreativitet og fantasi. Det stilles også et kritisk spørsmål
-til forskerens integritet ettersom man kan tolkes som kritisk til
-funnene eller at man ikke har tillit til forskeren. Slike argumenter
-gjør det mindre attraktiv å gjennomføre replikasjonsstudier.
+Dewald and co tried to replicate a number of datasets and they found that
+accidental errors in empirical articles are rather common than unusual
+[@dewald1986]. Although it is quite common for errors to occur in empirical
+economic research, it is quite frustrating and difficult to replicate
+and build on the research when there are many errors in the dataset and that
+also does not appear to significantly affect the conclusion of the authors.
 
-Dewald og co forsøkte å replikere et antall datasett og de fant ut at
-utilsiktede feil i empiriske artikler er snarer vanlig enn uvanlig
-[@dewald1986]. Selvom det er ganske vanlig at feil oppstår i empirisk
-økonomisk forskning, er det ganske frustrerende og vanskelig å replikere
-og bygge videre på forksningen når det er mange feil i datasettet og det
-ser heller ikke ut til å påvirke konklusjonen av forfatterne betydelig.
-
-I nyere tid har teknologien gjort det enklere og billigere å lage og
-vedlikeholde journale arkiver. Likevel har @mccullough2008 i artikkelen
-"Do Economics Journal Archives Promote Replicable Research?" vist funn
-på at det potensielle tilbudet reduseres når redaktører ikke klarer å
-håndheve og forfattere ikke overholder retningslinjene til journal
-akriver. Det bemerkes at få forskere benytter seg av muligheten som
-tilbys til å engasjere seg i replikering fordi økonomisk yrke vurderer
-replikering som et ideal for å bli kjent, men ikke å bli praktisert
+In recent times, technology has made it easier, cheaper and more effecient to make and maintain journal archives. Still, @mccullough2008 has in the article
+"Do Economics Journal Archives Promote Replicable Research?" shown findings
+that the potential offer is reduced when editors fail to
+enforce and authors do not adhere to the guidelines of the journal archives.
+It is noted that few researchers use the opportunity as
+offered to engage in replication because economic profession is considering
+replication as an ideal to be known but not to be practiced
 [@mccullough2008].
 
-##mulig løsning
-**kompendium og "Code Chunks"**
-[@gentleman2007] påpeker at kompedium er et viktig verktøy for å integrere koder og data osv. Det er fordi når slike verktøy samles og settes sammen så skal det kunne distribueres og oppdateres, gitt at kompendiumet er av riktig kvalitet, så vil muligheten for reproduksjon være enkel.
+##Possible soulutions
+**Compendium and "Code Chunks"**
+[@gentleman2007] points out that compendium is an important tool for integrating codes and data etc. This is because when such tools are collected and assembled it must be possible to distribute and update, given that the compendium is of the right quality, so will the possibility of reproduction be simple.
 
-En annen mulig løsning er "Code Chunks" eller "Text Chunks". Code- og tekst chunks er et verktøy som brukes til å vise data og kode til illustrasjoner. Tekst chunks brukes til å beskrive og tolke resultater og koder. Dynamisk dokument vil derfor være et optimalt kompendium siden alle dataene og komponentene vil være tilgjengelige for reproduserbarhet [@gentleman2007].
+Another possible solution is "Code Chunks" or "Text Chunks". Code and text chunks are a tool used to display data and code for illustrations. Text chunks are used to describe and interpret results and codes. Dynamic document will therefore be an optimal compendium since all the data and components will be available for reproducibility [@gentleman2007].
 
-##Analyse
+##Analysis
 
-##Konklusjon
-Ved å benytte seg av dynamisk dokument i form av koder, data, forklaringer osv i form av code chunks og tekst chunks så er det gode muligheter for både repliksjon og reproduserbarhet av forskning, og også videre forskning på tidligere studier. 
-- Motivere forskere til å dele å gjøre arbeidet sitt tilgjengelig
-- Ulempe? kanskje mange forskjellige pakker (vanskelig å ha styr på alt), hvis det skal være noe kritikk på Rstudio da.
+##conclusion
+By using dynamic documents in the form of codes, data, explanations, etc. in the form of code chunks and text chunks, there are good opportunities for both replication and reproducibility of research, and also further research on previous studies.
+- Motivate researchers to share to make their work available
+- Disadvantage? maybe too many different packages (difficult to keep track)
 
 # Litteraturliste
+
