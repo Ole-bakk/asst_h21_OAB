@@ -16,7 +16,10 @@ link-citations: yes
 ---
 
 ```{r setup, echo=FALSE}
-options(tinytex.clean = FALSE)
+## If one wants to keep all latex intermediate files (to debug)
+#options(tinytex.clean = FALSE)
+## reset to default
+#options(tinytex.clean = TRUE)
 ```
 
 # Introduction
