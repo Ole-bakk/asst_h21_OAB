@@ -1,11 +1,10 @@
 ---
-title: "«R Notebooks» og reproduserbarhet"
+title: "Can R Notebooks help with reproducibility?"
 author: "Assignment 1 - MSB 105 - Ole Alexander Bakkevik & Sindre Espedal"
 affiliation: HVL
 email: 579735@stud.hvl.no & 170691@stud.hvl.no
 bibliography: [references.bib, reproducibility.bib]
 csl: apa-no-ampersand.csl
-fontsize: 12pt
 output:
   pdf_document:
        keep_tex: yes
@@ -15,12 +14,16 @@ output:
 link-citations: yes
 ---
 
+```{r setup, echo=FALSE}
+options(tinytex.clean = FALSE)
+```
+
 # Introduction
 
-There is mainly two basic reasons to be concerned about making research reproducible.
+One might argue that there are two basic reasons to be concerned about making research reproducible.
 
 *The first* is to show evidence of the correctness of your results.
-Descriptions contained in scholarly publications are rarely sufficient to convince sceptical readers of the reliability of our work.
+Descriptions contained in scholarly publications are rarely sufficient to convince skeptical readers of the reliability of our work.
 In simpler times, scholarly publications showed the reader most of the work involved in getting the result.
 The reader could make an informed choice about the credibility of the science.
 Now, the reader may feel they are being asked to blindly trust in all the details that were not described in the original journal article.
@@ -34,16 +37,16 @@ Adopting a reproducible workflow means publishing our code and data in order to 
 This has the potential to save a great deal of time in transmitting knowledge to future researchers.
 @Git-reproducabilty
 
-In this paper will discuss the topics mentioned above in an light,yet hopefully understandable manner.
+In this paper we will discuss the topics mentioned above.
 
-# Litterature review
+# Literature review
 
 ## Reproducibility, R notebooks
 
-Roger D. Peng states in his article "Reproducible Research in Computational Science, 2011" that "The standard of reproducibility calls for the data and the computer code used to analyze the data be made available to others" @peng2011.\
-As a standard , it creates a tedious and non-effective approach to replication.
+@peng2011 states that "The standard of reproducibility calls for the data and the computer code used to analyze the data be made available to others" .
+As a standard , this creates a tedious and non-effective approach to replication.
 A far more beneficial process is to independently inspect utilized data variables.
-R-notebook and other reproducible systems would serve as an crucial component in verifying scientific results.
+R-notebooks and other reproducible systems could serve as a crucial component in verifying scientific results.
 
 ## Replicability
 
@@ -54,26 +57,26 @@ Criticism can also arise about lack of creativity and imagination.
 A critical question is also asked to the integrity of the researcher as one can be interpreted as critical to the findings or that one does not trust the researcher.
 Such arguments makes it less attractive to conduct replication studies.
 
-Dewald and co tried to replicate a number of datasets and they found that accidental errors in empirical articles are rather common than unusual [@dewald1986].
-Although it is quite common for errors to occur in empirical economic research, it is quite frustrating and difficult to replicate and build on the research when there are many errors in the dataset and that also does not appear to significantly affect the conclusion of the authors.
+@dewald1986 tried to replicate a number of data-sets and they found that accidental errors in empirical articles are rather more common than unusual.
+Although it is quite common for errors to occur in empirical economic research, it is quite frustrating and difficult to replicate and build on the research when there are many errors in the data-sets.
+This does not appear to significantly affect the conclusion of the authors.
 
-In recent times, technology has made it easier, cheaper and more effecient to make and maintain journal archives.
-Still, @mccullough2008 has in the article "Do Economics Journal Archives Promote Replicable Research?" shown findings that the potential offer is reduced when editors fail to enforce and authors do not adhere to the guidelines of the journal archives.
-It is noted that few researchers use the opportunity as offered to engage in replication because economic profession is considering replication as an ideal to be known but not to be practiced [@mccullough2008].
+In recent times, technology has made it easier, cheaper and more efficient to make and maintain journal archives.
+Still @mccullough2008 finds that the potential offered is reduced when editors fail to enforce and authors do not adhere to the guidelines of the journal archives. It is noted that few researchers use the opportunity as offered to engage in replication because economic profession is considering replication as an ideal "to be known but not to be practiced" [@mccullough2008].
 
-## Possible soulutions
+# Possible solutions
 
-### Compendium and "Code Chunks"
+## Compendium and "Code Chunks"
 
-[@gentleman2007] points out that compendium is an important tool for integrating codes and data etc.
+@gentleman2007 points out that a computable compendium might be an important tool for integrating codes and data etc.
 This is because when such tools are collected and assembled it must be possible to distribute and update, given that the compendium is of the right quality, so will the possibility of reproduction be simple.
 
 Another possible solution is "Code Chunks" or "Text Chunks".
 Code and text chunks are a tool used to display data and code for illustrations.
 Text chunks are used to describe and interpret results and codes.
-Dynamic document will therefore be an optimal compendium since all the data and components will be available for reproducibility [@gentleman2007].
+Dynamic document will hence be an optimal compendium since all the data and components will be available for reproduction [@gentleman2007].
 
-### Incentivizing reproducibility
+## Incentivizing Reproducibility
 
 Over the past several years, a series of publications and policy statements have generated increasing awareness in the scientific community of the scale and implications of the problem of irreproducible data---or at least lack of robust results---particularly in the realm of basic and translational research.
 
@@ -94,22 +97,24 @@ Hessen furthermore list three possible solutions:
 -   A third solution aims to compensate for the misalignment.\
     (l*imiting the number of papers scientists may publish per unit time) @schulz2016*
 
-### Incentivizing gone wrong
+## Incentivizing gone wrong
 
 A good example of fraudulent science is Andrew Wakefield and his study on the link between autism and the MMR vaccine published in the Lancet.
 Wakefield was paid by a Legal Aid Board of parents of children with autism to conduct a pilot study of virological investigation in autistic children, some of whom were included in the Lancet publication.
-Additionally, Wakefield most likely manipulated the data, thus representing in false results.
+Additionally, Wakefield most likely manipulated the data, thus presenting false results.
 Since then Wakefield has become the "*godfather*" for the anti-vaccine movement, a movement whom have grown exponentially during the covid-19 pandemic.
 @schulz2016
 
-### Example list 2 level
+## Example list 2 level
+
+Example of a *code chunk* in an R Notebook:
 
 ```{r}
 l <- list(x = 1:4, y = c(TRUE, FALSE, FALSE), z = c("aa", "bb"), zz= c(2.1, 4.33))
 str(l)
 ```
 
-### Session info
+## Session info
 
 Example session info:
 
@@ -120,18 +125,19 @@ sessionInfo()
 The session info function provides the reader information regarding which operating system, packages and data sets that have been used.
 This information is crucial in terms of gaining reproducibility.
 
-### Reproducibility across sectors
+## Reproducibility across sectors
 
 Other areas where application of reproducibility would prove beneficiary is e.g. the pharmaceutical industry.
 Present day studies show that replicating present day clinical-research data is demanding.
-Which often leads to drugs to prolong their release to actual patient trials.
+Which often leads to drugs having to prolong their release to actual patient trials.
 One human factor could be the fear of being "discredited" among peers, which lead to an bias among researchers.
 Ultimately causing studies not to be reproduced.
 @Pharm-tech
 
 # Conclusion
 
-Providing studies that are reproducible is vital in terms of quality assurance , cost- effective and deterring fraudulent scientists is crucial.
+Providing studies that are reproducible is vital in terms of quality assurance and cost- effectiveness.
+In addition deterring fraudulent scientists is crucial.
 
 By using dynamic documents in the form of codes, data, explanations, etc. in the form of code chunks and text chunks, there are good opportunities for both replication and reproducibility of research, and also further research on previous studies.
 
@@ -140,13 +146,13 @@ By using dynamic documents in the form of codes, data, explanations, etc. in the
 
 \newpage
 
-# Litteraturliste
+# References
 
 ::: {#refs}
 :::
 
 # Appendix
 
-### Display of Git commits and three branches
+## Display of Git commits and three branches
 
 ![](images/paste-7A7BFE4C.png)

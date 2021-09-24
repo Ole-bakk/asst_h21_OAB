@@ -3,7 +3,6 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-  12pt,
 ]{article}
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -37,7 +36,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={«R Notebooks» og reproduserbarhet},
+  pdftitle={Can R Notebooks help with reproducibility?},
   pdfauthor={Assignment 1 - MSB 105 - Ole Alexander Bakkevik \& Sindre Espedal},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
@@ -124,7 +123,7 @@
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
-\title{«R Notebooks» og reproduserbarhet}
+\title{Can R Notebooks help with reproducibility?}
 \author{Assignment 1 - MSB 105 - Ole Alexander Bakkevik \& Sindre
 Espedal}
 \date{}
@@ -135,12 +134,12 @@ Espedal}
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
 
-There is mainly two basic reasons to be concerned about making research
-reproducible.
+One might argue that there are two basic reasons to be concerned about
+making research reproducible.
 
 \emph{The first} is to show evidence of the correctness of your results.
 Descriptions contained in scholarly publications are rarely sufficient
-to convince sceptical readers of the reliability of our work. In simpler
+to convince skeptical readers of the reliability of our work. In simpler
 times, scholarly publications showed the reader most of the work
 involved in getting the result. The reader could make an informed choice
 about the credibility of the science. Now, the reader may feel they are
@@ -164,25 +163,23 @@ in transmitting knowledge to future researchers.
 \protect\hyperlink{ref-Git-reproducabilty}{\emph{Reproducibility Guide}}
 (\protect\hyperlink{ref-Git-reproducabilty}{n.d.})
 
-In this paper will discuss the topics mentioned above in an light,yet
-hopefully understandable manner.
+In this paper we will discuss the topics mentioned above.
 
-\hypertarget{litterature-review}{%
-\section{Litterature review}\label{litterature-review}}
+\hypertarget{literature-review}{%
+\section{Literature review}\label{literature-review}}
 
 \hypertarget{reproducibility-r-notebooks}{%
 \subsection{Reproducibility, R
 notebooks}\label{reproducibility-r-notebooks}}
 
-Roger D. Peng states in his article ``Reproducible Research in
-Computational Science, 2011'' that ``The standard of reproducibility
-calls for the data and the computer code used to analyze the data be
-made available to others'' \protect\hyperlink{ref-peng2011}{Peng}
-(\protect\hyperlink{ref-peng2011}{2011}).\\
-As a standard , it creates a tedious and non-effective approach to
-replication. A far more beneficial process is to independently inspect
-utilized data variables. R-notebook and other reproducible systems would
-serve as an crucial component in verifying scientific results.
+\protect\hyperlink{ref-peng2011}{Peng}
+(\protect\hyperlink{ref-peng2011}{2011}) states that ``The standard of
+reproducibility calls for the data and the computer code used to analyze
+the data be made available to others'' . As a standard , this creates a
+tedious and non-effective approach to replication. A far more beneficial
+process is to independently inspect utilized data variables. R-notebooks
+and other reproducible systems could serve as a crucial component in
+verifying scientific results.
 
 \hypertarget{replicability}{%
 \subsection{Replicability}\label{replicability}}
@@ -196,49 +193,51 @@ also asked to the integrity of the researcher as one can be interpreted
 as critical to the findings or that one does not trust the researcher.
 Such arguments makes it less attractive to conduct replication studies.
 
-Dewald and co tried to replicate a number of datasets and they found
-that accidental errors in empirical articles are rather common than
-unusual (\protect\hyperlink{ref-dewald1986}{Dewald et al., 1986}).
-Although it is quite common for errors to occur in empirical economic
-research, it is quite frustrating and difficult to replicate and build
-on the research when there are many errors in the dataset and that also
-does not appear to significantly affect the conclusion of the authors.
+\protect\hyperlink{ref-dewald1986}{Dewald et al.}
+(\protect\hyperlink{ref-dewald1986}{1986}) tried to replicate a number
+of data-sets and they found that accidental errors in empirical articles
+are rather more common than unusual. Although it is quite common for
+errors to occur in empirical economic research, it is quite frustrating
+and difficult to replicate and build on the research when there are many
+errors in the data-sets. This does not appear to significantly affect
+the conclusion of the authors.
 
 In recent times, technology has made it easier, cheaper and more
-effecient to make and maintain journal archives. Still,
+efficient to make and maintain journal archives. Still
 \protect\hyperlink{ref-mccullough2008}{McCullough et al.}
-(\protect\hyperlink{ref-mccullough2008}{2008}) has in the article ``Do
-Economics Journal Archives Promote Replicable Research?'' shown findings
-that the potential offer is reduced when editors fail to enforce and
-authors do not adhere to the guidelines of the journal archives. It is
-noted that few researchers use the opportunity as offered to engage in
-replication because economic profession is considering replication as an
-ideal to be known but not to be practiced
+(\protect\hyperlink{ref-mccullough2008}{2008}) finds that the potential
+offered is reduced when editors fail to enforce and authors do not
+adhere to the guidelines of the journal archives. It is noted that few
+researchers use the opportunity as offered to engage in replication
+because economic profession is considering replication as an ideal ``to
+be known but not to be practiced''
 (\protect\hyperlink{ref-mccullough2008}{McCullough et al., 2008}).
 
-\hypertarget{possible-soulutions}{%
-\subsection{Possible soulutions}\label{possible-soulutions}}
+\hypertarget{possible-solutions}{%
+\section{Possible solutions}\label{possible-solutions}}
 
 \hypertarget{compendium-and-code-chunks}{%
-\subsubsection{Compendium and ``Code
+\subsection{Compendium and ``Code
 Chunks''}\label{compendium-and-code-chunks}}
 
-(\protect\hyperlink{ref-gentleman2007}{Gentleman and Lang, 2007}) points
-out that compendium is an important tool for integrating codes and data
-etc. This is because when such tools are collected and assembled it must
-be possible to distribute and update, given that the compendium is of
-the right quality, so will the possibility of reproduction be simple.
+\protect\hyperlink{ref-gentleman2007}{Gentleman and Lang}
+(\protect\hyperlink{ref-gentleman2007}{2007}) points out that a
+computable compendium might be an important tool for integrating codes
+and data etc. This is because when such tools are collected and
+assembled it must be possible to distribute and update, given that the
+compendium is of the right quality, so will the possibility of
+reproduction be simple.
 
 Another possible solution is ``Code Chunks'' or ``Text Chunks.'' Code
 and text chunks are a tool used to display data and code for
 illustrations. Text chunks are used to describe and interpret results
-and codes. Dynamic document will therefore be an optimal compendium
-since all the data and components will be available for reproducibility
+and codes. Dynamic document will hence be an optimal compendium since
+all the data and components will be available for reproduction
 (\protect\hyperlink{ref-gentleman2007}{Gentleman and Lang, 2007}).
 
 \hypertarget{incentivizing-reproducibility}{%
-\subsubsection{Incentivizing
-reproducibility}\label{incentivizing-reproducibility}}
+\subsection{Incentivizing
+Reproducibility}\label{incentivizing-reproducibility}}
 
 Over the past several years, a series of publications and policy
 statements have generated increasing awareness in the scientific
@@ -283,8 +282,7 @@ result}.'' Hessen furthermore list three possible solutions:
 \end{itemize}
 
 \hypertarget{incentivizing-gone-wrong}{%
-\subsubsection{Incentivizing gone
-wrong}\label{incentivizing-gone-wrong}}
+\subsection{Incentivizing gone wrong}\label{incentivizing-gone-wrong}}
 
 A good example of fraudulent science is Andrew Wakefield and his study
 on the link between autism and the MMR vaccine published in the Lancet.
@@ -292,14 +290,16 @@ Wakefield was paid by a Legal Aid Board of parents of children with
 autism to conduct a pilot study of virological investigation in autistic
 children, some of whom were included in the Lancet publication.
 Additionally, Wakefield most likely manipulated the data, thus
-representing in false results. Since then Wakefield has become the
+presenting false results. Since then Wakefield has become the
 ``\emph{godfather}'' for the anti-vaccine movement, a movement whom have
 grown exponentially during the covid-19 pandemic.
 \protect\hyperlink{ref-schulz2016}{Schulz et al.}
 (\protect\hyperlink{ref-schulz2016}{2016})
 
 \hypertarget{example-list-2-level}{%
-\subsubsection{Example list 2 level}\label{example-list-2-level}}
+\subsection{Example list 2 level}\label{example-list-2-level}}
+
+Example of a \emph{code chunk} in an R Notebook:
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -317,7 +317,7 @@ grown exponentially during the covid-19 pandemic.
 \end{verbatim}
 
 \hypertarget{session-info}{%
-\subsubsection{Session info}\label{session-info}}
+\subsection{Session info}\label{session-info}}
 
 Example session info:
 
@@ -354,14 +354,14 @@ which operating system, packages and data sets that have been used. This
 information is crucial in terms of gaining reproducibility.
 
 \hypertarget{reproducibility-across-sectors}{%
-\subsubsection{Reproducibility across
+\subsection{Reproducibility across
 sectors}\label{reproducibility-across-sectors}}
 
 Other areas where application of reproducibility would prove beneficiary
 is e.g.~the pharmaceutical industry. Present day studies show that
 replicating present day clinical-research data is demanding. Which often
-leads to drugs to prolong their release to actual patient trials. One
-human factor could be the fear of being ``discredited'' among peers,
+leads to drugs having to prolong their release to actual patient trials.
+One human factor could be the fear of being ``discredited'' among peers,
 which lead to an bias among researchers. Ultimately causing studies not
 to be reproduced. \protect\hyperlink{ref-Pharm-tech}{\emph{Why Is
 Reproducing Pharmaceutical Medical Research so Hard?}}
@@ -371,8 +371,8 @@ Reproducing Pharmaceutical Medical Research so Hard?}}
 \section{Conclusion}\label{conclusion}}
 
 Providing studies that are reproducible is vital in terms of quality
-assurance , cost- effective and deterring fraudulent scientists is
-crucial.
+assurance and cost- effectiveness. In addition deterring fraudulent
+scientists is crucial.
 
 By using dynamic documents in the form of codes, data, explanations,
 etc. in the form of code chunks and text chunks, there are good
@@ -390,8 +390,8 @@ also further research on previous studies.
 
 \newpage
 
-\hypertarget{litteraturliste}{%
-\section{Litteraturliste}\label{litteraturliste}}
+\hypertarget{references}{%
+\section{References}\label{references}}
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
@@ -444,7 +444,7 @@ fraudulent and irreproducible data to the translational research crisis
 \section{Appendix}\label{appendix}}
 
 \hypertarget{display-of-git-commits-and-three-branches}{%
-\subsubsection{Display of Git commits and three
+\subsection{Display of Git commits and three
 branches}\label{display-of-git-commits-and-three-branches}}
 
 \includegraphics{images/paste-7A7BFE4C.png}
