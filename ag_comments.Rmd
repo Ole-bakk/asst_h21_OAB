@@ -1,6 +1,8 @@
 ---
 title: "Some comments"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 -   Nice touch using multiple .bib files. An alternative is one online library at Zotero
