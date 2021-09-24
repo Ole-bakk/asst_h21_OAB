@@ -4,6 +4,7 @@ author: "Assignment 1 - MSB 105 - Ole Alexander Bakkevik & Sindre Espedal"
 affiliation: HVL
 email: 579735@stud.hvl.no & 170691@stud.hvl.no
 bibliography: [references.bib, reproducibility.bib]
+fontsize: 11pt
 csl: apa-no-ampersand.csl
 output:
   pdf_document:
@@ -43,8 +44,8 @@ In this paper we will discuss the topics mentioned above.
 
 ## Reproducibility, R notebooks
 
-@peng2011 states that "The standard of reproducibility calls for the data and the computer code used to analyze the data be made available to others" .
-As a standard , this creates a tedious and non-effective approach to replication.
+@peng2011 states that "The standard of reproducibility calls for the data and the computer code used to analyze the data be made available to others".
+As a standard, this creates a tedious and non-effective approach to replication.
 A far more beneficial process is to independently inspect utilized data variables.
 R-notebooks and other reproducible systems could serve as a crucial component in verifying scientific results.
 
@@ -83,7 +84,7 @@ Over the past several years, a series of publications and policy statements have
 Recent studies have shown that the key findings in 50% or more of published reports in certain fields cannot be reproduced.
 As the public, government, and private funders of research comprehend the extent of the problem, trust in the scientific enterprise erodes, and confidence in the ability of the scientific community to address this problem wanes.
 In addition, there is considerable potential for reputational damage to scientists, universities, and entire fields (for example, cancer biology, genomics, and psychology).
-@Science.org
+[@Science.org]
 
 One possible cause of irreproducible-data is stated by Hessen as"*Scientists are incentivized to produce more results at the expense of spending more time on the reproducibility of any given result*".
 Hessen furthermore list three possible solutions:
@@ -95,7 +96,7 @@ Hessen furthermore list three possible solutions:
     *(If the credit given to irreproducible results matched the social value of those results more closely, the gap between the credit-maximizing optimum and the social optimum would be reduced)*
 
 -   A third solution aims to compensate for the misalignment.\
-    (l*imiting the number of papers scientists may publish per unit time) @schulz2016*
+    (*limiting the number of papers scientists may publish per unit time*) [@schulz2016]
 
 ## Incentivizing gone wrong
 
@@ -103,7 +104,7 @@ A good example of fraudulent science is Andrew Wakefield and his study on the li
 Wakefield was paid by a Legal Aid Board of parents of children with autism to conduct a pilot study of virological investigation in autistic children, some of whom were included in the Lancet publication.
 Additionally, Wakefield most likely manipulated the data, thus presenting false results.
 Since then Wakefield has become the "*godfather*" for the anti-vaccine movement, a movement whom have grown exponentially during the covid-19 pandemic.
-@schulz2016
+[@schulz2016]
 
 ## Example list 2 level
 
@@ -132,7 +133,7 @@ Present day studies show that replicating present day clinical-research data is 
 Which often leads to drugs having to prolong their release to actual patient trials.
 One human factor could be the fear of being "discredited" among peers, which lead to an bias among researchers.
 Ultimately causing studies not to be reproduced.
-@Pharm-tech
+[@Pharm-tech]
 
 # Conclusion
 
