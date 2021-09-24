@@ -1,0 +1,13 @@
+---
+title: "Some comments"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+-   Nice touch using multiple .bib files. An alternative is one online library at Zotero
+-   I have changed the title
+-   I have changed the level of the headings. We should start at level 1. Remember that we code structure, not appearance (we can change the appearance later if need be)
+-   Check out inline cite (i.e. cite command without the square brackets). I think the text becomes more fluent this way
+-   Quite an exciting git history. I am not sure all the excitement was intended, but well done.
